@@ -1,0 +1,721 @@
+{
+  "series": {
+    "name": "Collana Erranze",
+    "author": "Giovanni Martini",
+    "language": "it",
+    "description": "Il filo che lega i volumi non è un tema ma un gesto: prendere un'idea che diamo per scontata, seguirla nei suoi sconfinamenti tra discipline distanti, filosofia, fisica, antropologia, letteratura, mito, e lasciare la tensione aperta invece di chiuderla in una tesi. Niente sintesi facili. «Erranze» è il nome di questo metodo: errare nel senso pieno e antico del termine, vagare, sbagliare, deviare, perché è lì che si scopre qualcosa che una traiettoria dritta non avrebbe mai mostrato.",
+    "zlib_series": "Erranze"
+  },
+  "books": [
+    {
+      "n": 1,
+      "title": "Il Golem — Argilla e Parola",
+      "folder": "Completati/Il Golem - Argilla e Parola",
+      "file": "Il Golem - Argilla e Parola",
+      "color": "#C4724A",
+      "price_ebook_eur": 4.49,
+      "price_paperback_eur": 10.9,
+      "blurb": "La parola «Golem», che deriva dall'ebraico antico, si incontra per la prima e unica volta nella Bibbia (Salmo 139,16). Viene tradotta come massa informe, materia grezza, embrione. La tradizione ebraica la identifica con un essere umano artificiale creato con l'argilla e animato dalla parola. Secondo la tradizione, fu nel XVI secolo, nella Praga di Rodolfo II, che Rabbi Loew cominciò a creare golem da utilizzare come servi, plasmandoli con l'argilla e risvegliandoli scrivendo sulla fronte la parola «Emet» («Verità»). Dal ghetto di Praga la leggenda si diffuse nell'ambiente letterario, con Borges e Singer, in quello cinematografico, da Wegener a Kubrick, che in HAL 9000 trova il suo Golem elettronico, in quello artistico, in quello musicale e in quello della cibernetica, da Norbert Wiener in poi, per porre la domanda cruciale: cosa significhi dare vita a ciò che si è plasmato.",
+      "keywords": [
+        "golem",
+        "mito ebraico",
+        "Praga",
+        "cabala",
+        "automi",
+        "intelligenza artificiale",
+        "Borges",
+        "Čapek",
+        "Meyrink"
+      ],
+      "zlib_category": "Literature - Literary criticism",
+      "kdp_categories": [
+        "LITERARY CRITICISM / Comparative Literature",
+        "RELIGION / Judaism / History",
+        "SOCIAL SCIENCE / Folklore & Mythology"
+      ],
+      "zenodo": {
+        "deposit_id": 22010649,
+        "url": "https://zenodo.org/record/22010649",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010649",
+        "doi": "10.5281/zenodo.22010649",
+        "concept_doi": "10.5281/zenodo.22010648"
+      },
+      "asin": "B0H6C7BZDD",
+      "pages": 119
+    },
+    {
+      "n": 2,
+      "title": "Abitare la Soglia — Una cartografia della coscienza",
+      "folder": "Completati/Abitare la Soglia — Una cartografia della coscienza",
+      "file": "Abitare la Soglia",
+      "color": "#9B7EC8",
+      "price_ebook_eur": 4.49,
+      "price_paperback_eur": 10.9,
+      "blurb": "In questo libro la parola «soglia» viene usata per descrivere la zona in cui coesistono il dentro e il fuori. Sarà un excursus, che abbiamo chiamato cartografia, attraverso la filosofia, la mistica, la letteratura e le scienze, per porci una domanda semplice e scomoda: perché cerchiamo in tutti i modi di uscire da quella soglia?",
+      "keywords": [
+        "coscienza",
+        "soglia",
+        "mistica",
+        "fenomenologia",
+        "neuroscienze",
+        "esperienza religiosa",
+        "attenzione"
+      ],
+      "zlib_category": "Philosophy",
+      "kdp_categories": [
+        "PHILOSOPHY / Mind & Body",
+        "PSYCHOLOGY / Cognitive Psychology & Cognition",
+        "RELIGION / Mysticism"
+      ],
+      "zenodo": {
+        "deposit_id": 22010653,
+        "url": "https://zenodo.org/record/22010653",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010653",
+        "doi": "10.5281/zenodo.22010653",
+        "concept_doi": "10.5281/zenodo.22010652"
+      },
+      "asin": "B0H6851BZT",
+      "pages": 89
+    },
+    {
+      "n": 3,
+      "title": "Errare — Mito e Spazio del Labirinto",
+      "folder": "Completati/Errare — Mito e Spazio del Labirinto",
+      "file": "Errare — Mito e Spazio del Labirinto",
+      "color": "#7A9A6A",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Il mito del labirinto è sempre stato un tema che ha affascinato gli uomini. Questo libro racconta il mito di Dedalo, Teseo e Arianna per addentrarsi, poi, nella filosofia dell'erranza da Heidegger a Benjamin. Toccherà la letteratura con Borges, Kafka, Calvino, Murakami. Cercherà con Hofstadter le interconnessioni fra Bach, Escher e Gödel. Ma il labirinto non è solo un mito o una metafora: è anche uno spazio reale, dai centri commerciali progettati per trattenere chi vi entra, alle periferie senza centro, fino al labirinto digitale del feed infinito, costruito da un algoritmo che è il nuovo Dedalo. Non promette vie d'uscita, ma questo non era l'obiettivo.",
+      "keywords": [
+        "labirinto",
+        "mito",
+        "Minotauro",
+        "Dedalo",
+        "spazio",
+        "architettura",
+        "erranza",
+        "Borges"
+      ],
+      "zlib_category": "Literature - Literary criticism",
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Folklore & Mythology",
+        "LITERARY CRITICISM / Comparative Literature",
+        "ARCHITECTURE / History / General"
+      ],
+      "zenodo": {
+        "deposit_id": 22010655,
+        "url": "https://zenodo.org/record/22010655",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010655",
+        "doi": "10.5281/zenodo.22010655",
+        "concept_doi": "10.5281/zenodo.22010654"
+      },
+      "asin": "B0H6JMJBP7",
+      "pages": 71
+    },
+    {
+      "n": 4,
+      "title": "Il Luogo Comune — Viaggiare nell'Epoca della Sua Riproducibilità",
+      "folder": "Completati/Il Luogo Comune — Viaggiare nell'Epoca della Sua Riproducibilità",
+      "file": "Il Luogo Comune",
+      "color": "#C4A852",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Nel 1935 Walter Benjamin scrisse che l'opera d'arte riprodotta perde l'aura. Questo era riferito ai quadri. Ma ciò adesso vale anche per i luoghi. Tutti i posti che visitiamo li conosciamo già prima di esserci arrivati, non tanto da una raffigurazione mentale immaginata, ma da fotografie e da milioni di sguardi. Quindi i luoghi che visitiamo non li scopriamo ma li riconosciamo. Da Thomas Cook all'algoritmo di Instagram, dal Grand Tour alla crisi abitativa delle città turistificate, questo libro segue la trasformazione dei luoghi in immagini di se stessi, e si chiede cosa significhi, oggi, abitare un posto invece di limitarsi ad attraversarlo.",
+      "keywords": [
+        "turismo",
+        "luogo",
+        "autenticità",
+        "Grand Tour",
+        "viaggio",
+        "non-luoghi",
+        "Benjamin",
+        "riproducibilità"
+      ],
+      "zlib_category": "Social sciences - Sociology",
+      "kdp_categories": [
+        "TRAVEL / Special Interest / General",
+        "SOCIAL SCIENCE / Sociology / General",
+        "PHILOSOPHY / Aesthetics"
+      ],
+      "zenodo": {
+        "deposit_id": 22010659,
+        "url": "https://zenodo.org/record/22010659",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010659",
+        "doi": "10.5281/zenodo.22010659",
+        "concept_doi": "10.5281/zenodo.22010658"
+      },
+      "asin": "B0H6T7RTL5",
+      "pages": 59
+    },
+    {
+      "n": 5,
+      "title": "Causalità e Sincronicità — Una problematizzazione senza tesi",
+      "folder": "Completati/Causalità e sincronicità - Due principi irriducibili",
+      "file": "Causalità e sincronicità",
+      "color": "#7878C8",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Per interrogare l'I Ching, il libro-oracolo cinese, si lanciano per sei volte tre monete uguali. L'emblema della sincronicità: un gesto qualunque della nostra vita è collegato a tutti i nostri problemi. Ma le cose stanno davvero così, o negli eventi c'è un rapporto causa-effetto, come sostenevano già Aristotele e Laplace? Il libro segue la frattura di questo principio nella fisica del Novecento, da Bell a Bohm, e la sincronicità di Jung, il suo concetto più controverso e meno compreso. Mette in tensione due descrizioni della realtà, irriducibili l'una all'altra, senza cercare una sintesi che le risolva. Non è un trattato che chiude la domanda. È un libro che la tiene aperta, e ferma.",
+      "keywords": [
+        "causalità",
+        "sincronicità",
+        "caso",
+        "Jung",
+        "Pauli",
+        "fisica",
+        "epistemologia"
+      ],
+      "zlib_category": "Philosophy",
+      "kdp_categories": [
+        "PHILOSOPHY / Metaphysics",
+        "SCIENCE / Philosophy & Social Aspects",
+        "PSYCHOLOGY / Movements / Jungian"
+      ],
+      "zenodo": {
+        "deposit_id": 22010661,
+        "url": "https://zenodo.org/record/22010661",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010661",
+        "doi": "10.5281/zenodo.22010661",
+        "concept_doi": "10.5281/zenodo.22010660"
+      },
+      "asin": "B0H779ZG8X",
+      "pages": 49
+    },
+    {
+      "n": 6,
+      "title": "Vendere il Cielo — La Pubblicità come Paesaggio Totale",
+      "folder": "Completati/Vendere il Cielo — La Pubblicità come Paesaggio Totale",
+      "file": "Vendere il Cielo",
+      "color": "#4AB0C4",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "La pubblicità costituisce la colonna sonora della nostra giornata, o forse la trama in cui è intessuta la nostra vita: è diventata l'ambiente in cui viviamo, troppo presente per essere vista, come l'acqua per il pesce. Questo libro passa in rassegna i principali teorici della pubblicità e ricostruisce un secolo di tecniche per vendere non più prodotti ma significati: libertà, appartenenza, identità, fino ai progetti per lanciare satelliti pubblicitari nel cielo notturno. Il libro si chiude su una domanda che riguarda tutti: chi ha messo il cielo lì, prima che qualcuno pensasse di venderlo?",
+      "keywords": [
+        "pubblicità",
+        "consumo",
+        "persuasione",
+        "media",
+        "paesaggio urbano",
+        "capitalismo",
+        "marca"
+      ],
+      "zlib_category": "Social sciences - Media and communication",
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Media Studies",
+        "BUSINESS & ECONOMICS / Advertising & Promotion",
+        "HISTORY / Social History"
+      ],
+      "zenodo": {
+        "deposit_id": 22010664,
+        "url": "https://zenodo.org/records/22010664",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010664",
+        "doi": "10.5281/zenodo.22010664",
+        "concept_doi": "10.5281/zenodo.22010663"
+      },
+      "asin": "B0H76T1VFC",
+      "pages": 57
+    },
+    {
+      "n": 7,
+      "title": "La Natura non Esiste — Una storia culturale dell'ambiente",
+      "folder": "Completati/La Natura Non Esiste — Una storia culturale dell'ambiente",
+      "file": "La Natura Non Esiste",
+      "color": "#6AB8A0",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Quando ci rechiamo in vacanza, per esempio sull'Altopiano di Pine', ci troviamo, talvolta, a esclamare: «Finalmente natura vera». Non ci passa dalla mente che i prati sono il risultato di secoli di alpeggio e che i laghi sono al servizio di impianti idroelettrici. Questo libro sostiene che la natura come regno separato, puro, esterno all'umano non è la più antica delle idee: è un'invenzione recente, costruita tra Seicento e Ottocento e oggi in via di superamento. Da Aristotele a Cartesio, dal Romanticismo a Darwin, da Lovelock a Latour, una storia culturale che non nega gli alberi, i fiumi, le montagne: nega solo il contenitore concettuale in cui li abbiamo chiusi. E lascia, alla fine, un mondo senza alibi: più difficile da proteggere con una parola sola, più facile da abitare con consapevolezza.",
+      "keywords": [
+        "natura",
+        "ambiente",
+        "Antropocene",
+        "ecologia",
+        "storia culturale",
+        "Descola",
+        "Latour",
+        "Morton",
+        "Leopardi"
+      ],
+      "zlib_category": "Social sciences - Ecology and environment",
+      "kdp_categories": [
+        "NATURE / Environmental Conservation & Protection",
+        "PHILOSOPHY / Environmental",
+        "HISTORY / Social History"
+      ],
+      "zenodo": {
+        "deposit_id": 22010666,
+        "url": "https://zenodo.org/records/22010666",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010666",
+        "doi": "10.5281/zenodo.22010666",
+        "concept_doi": "10.5281/zenodo.22010665"
+      },
+      "asin": "B0H786HNKZ",
+      "pages": 71
+    },
+    {
+      "n": 8,
+      "title": "La Piazza Privata — Media dal basso, proprietà dall'alto",
+      "folder": "Completati/La Piazza Privata — Media dal basso, proprietà dall'alto",
+      "file": "La Piazza Privata",
+      "color": "#5C7A94",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "A 220 anni dalla Dichiarazione di Indipendenza degli Stati Uniti, nel 1996, John Perry Barlow scrisse la Dichiarazione di Indipendenza del Cyberspazio. Tale documento oggi si legge su server di proprietà altrui: il paradosso da cui parte questo libro. La rete avrebbe dovuto essere una piazza senza padroni, dove chiunque potesse parlare senza chiedere permesso a un editore. Quella promessa in parte si è realizzata e in parte rovesciata: la voce è libera, ma lo spazio in cui risuona appartiene a un'azienda privata. Sapere a chi si paga l'affitto è già, forse, un primo passo per discuterne i termini.",
+      "keywords": [
+        "social media",
+        "sfera pubblica",
+        "libertà di espressione",
+        "piattaforme",
+        "moderazione dei contenuti",
+        "proprietà"
+      ],
+      "zlib_category": "Social sciences - Media and communication",
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Media Studies",
+        "POLITICAL SCIENCE / Censorship",
+        "COMPUTERS / Social Aspects"
+      ],
+      "zenodo": {
+        "deposit_id": 22010670,
+        "url": "https://zenodo.org/records/22010670",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010670",
+        "doi": "10.5281/zenodo.22010670",
+        "concept_doi": "10.5281/zenodo.22010669"
+      },
+      "asin": "B0H7F875BC",
+      "pages": 51
+    },
+    {
+      "n": 9,
+      "title": "Il Sudore della Fronte — Una storia culturale del lavoro",
+      "folder": "Completati/Il Sudore della Fronte — Una storia culturale del lavoro",
+      "file": "Il Sudore della Fronte",
+      "color": "#B87A4A",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "«Con il sudore del tuo volto mangerai il pane»: la maledizione di Genesi 3,19 è incisa, anche per chi non l'ha mai letta, nel modo in cui ancora oggi misuriamo il valore di una vita attraverso il mestiere che la occupa. Eppure nel 1930 John Maynard Keynes prevedeva che il progresso tecnico avrebbe ridotto la settimana lavorativa a quindici ore: la previsione economica più sbagliata, e più rivelatrice, del Novecento. Questo libro attraversa la storia del lavoro dai cacciatori-raccoglitori di Sahlins alla vocazione protestante, dalla catena di montaggio ai *bullshit jobs* di David Graeber, per chiedersi come una pena biblica sia diventata, in Occidente, sinonimo di realizzazione di sé. Non sceglie tra condanna e vocazione. Mostra perché continuiamo, da millenni, a oscillare tra le due.",
+      "keywords": [
+        "lavoro",
+        "etica protestante",
+        "automazione",
+        "bullshit jobs",
+        "Weber",
+        "Graeber",
+        "storia culturale"
+      ],
+      "zlib_category": "Social sciences - Sociology",
+      "kdp_categories": [
+        "BUSINESS & ECONOMICS / Labor",
+        "HISTORY / Social History",
+        "PHILOSOPHY / Social"
+      ],
+      "zenodo": {
+        "deposit_id": 22010672,
+        "url": "https://zenodo.org/record/22010672",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010672",
+        "doi": "10.5281/zenodo.22010672",
+        "concept_doi": "10.5281/zenodo.22010671"
+      },
+      "asin": "B0H7FGPPKG",
+      "pages": 83
+    },
+    {
+      "n": 10,
+      "title": "I Parenti Poveri — Storia culturale e scientifica dei Neandertal",
+      "folder": "Completati/I Parenti Poveri — Storia culturale e scientifica dei Neandertal",
+      "file": "I Parenti Poveri",
+      "color": "#8B7355",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Nel 1856, nella valle del fiume Neander, degli operai trovarono ossa strane che qualcuno scambiò per quelle di un soldato malato. Era l'inizio di un equivoco durato due secoli: i Neandertal, nostri parenti più prossimi estinti, vennero costruiti come bruti, gradino inferiore nella scala del progresso. La genetica moderna ha ribaltato questo quadro: tra il due e il quattro percento del DNA degli esseri umani non africani è di origine neandertaliana. Non sono mai scomparsi del tutto. Questo libro segue la loro storia reale, fatta di tecnologia litica sofisticata, cura dei malati, sepolture, arte simbolica, e poi smonta lo stereotipo, ne ricostruisce le radici culturali e ideologiche, e arriva alla domanda che resta aperta: perché avevamo bisogno che fossero quello che non erano?",
+      "keywords": [
+        "Neandertal",
+        "paleoantropologia",
+        "genetica",
+        "preistoria",
+        "evoluzione umana",
+        "stereotipi"
+      ],
+      "zlib_category": "Biology and other natural sciences - Paleontology",
+      "kdp_categories": [
+        "SCIENCE / Paleontology",
+        "SOCIAL SCIENCE / Archaeology",
+        "SCIENCE / Life Sciences / Evolution"
+      ],
+      "zenodo": {
+        "deposit_id": 22010674,
+        "url": "https://zenodo.org/records/22010674",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010674",
+        "doi": "10.5281/zenodo.22010674",
+        "concept_doi": "10.5281/zenodo.22010673"
+      },
+      "asin": "B0H7MKMG14",
+      "pages": 49
+    },
+    {
+      "n": 11,
+      "title": "La Creatura Imperfetta — Umanesimo, Transumanesimo, Postumanesimo",
+      "folder": "Completati/La Creatura Imperfetta — Umanesimo, Transumanesimo, Postumanesimo",
+      "file": "La Creatura Imperfetta",
+      "color": "#B85870",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Un amico da sempre contrario al telefonino chiama dal suo cellulare. Il ragionamento che ne segue è il punto di partenza di questo libro: non si può rifiutare la tecnologia a pezzi. Il rifiuto coerente è totale, come quello di Kaczynski, o valutativo, come quello degli Amish, che per ogni novità si chiedono se rafforza o indebolisce la comunità. Tutto il resto è nostalgia travestita da principio. Tre grandi tradizioni del pensiero contemporaneo hanno risposto diversamente alla domanda su cosa valga la pena proteggere nell'umano, e cosa valga la pena migliorare: l'umanesimo, che difende la dignità irriducibile della persona; il transumanesimo, che vede nell'enhancement il prolungamento naturale della specie; il postumanesimo, che propone di sciogliere la categoria stessa di «umano». Questo libro le cartografa senza arbitrare, e porta alla fine un criterio semplice e difficile nelle applicazioni: favorevoli a tutto ciò che migliora la condizione umana.",
+      "keywords": [
+        "umanesimo",
+        "transumanesimo",
+        "postumanesimo",
+        "bioetica",
+        "potenziamento umano",
+        "Magnifica Humanitas"
+      ],
+      "zlib_category": "Philosophy",
+      "kdp_categories": [
+        "PHILOSOPHY / Ethics & Moral Philosophy",
+        "MEDICAL / Ethics",
+        "SCIENCE / Philosophy & Social Aspects"
+      ],
+      "zenodo": {
+        "deposit_id": 22010676,
+        "url": "https://zenodo.org/records/22010676",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010676",
+        "doi": "10.5281/zenodo.22010676",
+        "concept_doi": "10.5281/zenodo.22010675"
+      },
+      "asin": "B0H7K7CT72",
+      "pages": 35
+    },
+    {
+      "n": 12,
+      "title": "Il Caso Abolito — La progettazione dell'autenticità",
+      "folder": "Completati/Il Caso Abolito — La progettazione dell'autenticità",
+      "file": "Il Caso Abolito — La progettazione dell'autenticità",
+      "color": "#3D5A73",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Ogni matrimonio ben riuscito ha un momento in cui qualcosa non torna: il sorriso fotografato per la quarta volta, il brindisi studiato nei minimi dettagli. In Italia i matrimoni calano da decenni mentre l'industria del wedding planning si espande: quando la sostanza si indebolisce, la forma compensa. Questo libro indaga il paradosso strutturale dell'ingegnerizzazione applicata al mito: un'esperienza trae il proprio valore dalla contingenza, dal rischio, dalla possibilità del fallimento, e proprio quando viene ottimizzata e pianificata perde la qualità che la rendeva necessaria. Da Eliade a Van Gennep, da Weber a Baudrillard, attraversando Disneyland, il Gender Reveal, Woodstock e Coachella, il Natale e il Noma, il libro mostra come la ricerca dell'autenticità, portata all'eccesso del controllo, produca sempre la sua simulazione. Non è un invito a smettere di organizzare: è una mappa di ciò che nessuna organizzazione può produrre, perché può solo essere lasciato accadere.",
+      "keywords": [
+        "autenticità",
+        "esperienza",
+        "rischio",
+        "contingenza",
+        "progettazione",
+        "simulazione",
+        "turismo"
+      ],
+      "zlib_category": "Social sciences - Sociology",
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Sociology / General",
+        "PHILOSOPHY / Aesthetics",
+        "TRAVEL / Special Interest / General"
+      ],
+      "zenodo": {
+        "deposit_id": 22010678,
+        "url": "https://zenodo.org/record/22010678",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010678",
+        "doi": "10.5281/zenodo.22010678",
+        "concept_doi": "10.5281/zenodo.22010677"
+      },
+      "asin": "B0H7K8227S",
+      "pages": 41
+    },
+    {
+      "n": 13,
+      "title": "Utopia e Distopia — La Politica del Mondo (Im)Perfetto",
+      "folder": "Completati/Utopia e Distopia — La Politica del Mondo (Im)Perfetto",
+      "file": "Utopia e Distopia",
+      "color": "#5A3D7A",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Nel 1516 Tommaso Moro scrisse un libro su un'isola che non esiste, e la chiamò con una parola che non significava nulla: Utopia. Da allora il non-luogo ha proliferato: la Città del Sole di Campanella, Oceania di Orwell, il Pacifico di Huxley, Anarres di Le Guin, la Cina distopica di Liu Cixin. Questo libro percorre cinque secoli di immaginazione politica del mondo perfetto e del suo rovescio per mostrare che non sono opposti: sono le due facce della stessa domanda. Ogni utopia è la critica implicita del presente in cui è nata. Ogni distopia è l'analisi dei pericoli che quel presente contiene. Insieme compongono qualcosa che potrebbe chiamarsi immaginazione politica: la capacità di non prendere il presente per necessario.",
+      "keywords": [
+        "utopia",
+        "distopia",
+        "Tommaso Moro",
+        "Platone",
+        "Orwell",
+        "Dick",
+        "immaginario politico"
+      ],
+      "zlib_category": "Social sciences - Politics",
+      "kdp_categories": [
+        "POLITICAL SCIENCE / History & Theory",
+        "LITERARY CRITICISM / Science Fiction & Fantasy",
+        "PHILOSOPHY / Political"
+      ],
+      "zenodo": {
+        "deposit_id": 22010680,
+        "url": "https://zenodo.org/records/22010680",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010680",
+        "doi": "10.5281/zenodo.22010680",
+        "concept_doi": "10.5281/zenodo.22010679"
+      },
+      "asin": "B0H88G4FFH",
+      "pages": 79
+    },
+    {
+      "n": 14,
+      "title": "La Soglia della Cura — Destino, colpa, luogo, classe: chi decide di che cosa ci ammaliamo",
+      "folder": "Completati/La Soglia della Cura — Destino, colpa, luogo e classe",
+      "file": "La Soglia della Cura",
+      "color": "#2E6E6A",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Due decaloghi per restare in salute, identici nella forma e opposti nel contenuto: uno chiede al singolo di non fumare, muoversi, mangiare bene; l'altro, firmato da un centro di ricerca sulla povertà, chiede di non essere poveri, di non abitare in una zona degradata, di non fare un lavoro usurante. Da questo scarto nasce il libro. Ogni epoca decide quali cause della malattia trattare come destino iscritto nel corpo, quali come colpa individuale, quali come ambiente, classe o merce, e quella scelta non è mai neutra: sposta il costo dell'intervento, quasi sempre verso chi ha meno voce. Con Sontag, Illich, Marmot, Foucault, Esposito, Polanyi e molti altri, il libro segue chi decide dove passa la soglia della cura: quali cause del nostro ammalarci affrontare e quali lasciare al destino. Non un atto d'accusa, ma la mappa di una domanda politica travestita da domanda scientifica.",
+      "keywords": [
+        "determinanti della salute",
+        "salute pubblica",
+        "disuguaglianze di salute",
+        "medicalizzazione",
+        "sovradiagnosi",
+        "Illich",
+        "Marmot",
+        "Sontag",
+        "Dubos"
+      ],
+      "zlib_category": "Medicine - Public health",
+      "kdp_categories": [
+        "MEDICAL / Public Health",
+        "SOCIAL SCIENCE / Disease & Health Issues",
+        "POLITICAL SCIENCE / Public Policy / Social Services & Welfare"
+      ],
+      "zenodo": {
+        "deposit_id": 22010683,
+        "url": "https://zenodo.org/record/22010683",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010683",
+        "doi": "10.5281/zenodo.22010683",
+        "concept_doi": "10.5281/zenodo.22010682"
+      },
+      "asin": "B0H88F8JTB",
+      "pages": 75
+    },
+    {
+      "n": 15,
+      "title": "La Stanza di Pascal — Silenzio, Solitudine, Rumore, Compagnia",
+      "folder": "Completati/La Stanza di Pascal — Silenzio, Solitudine, Rumore, Compagnia",
+      "file": "La Stanza di Pascal",
+      "color": "#B07880",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "«Tutta la sventura degli uomini viene da una sola cosa: non saper restare in quiete in una stanza.» Così scriveva Pascal nel Seicento, molto prima che il telefono in tasca rendesse quella diagnosi un'esperienza quotidiana. Questo libro segue quattro condizioni che il linguaggio comune dispone in coppie di opposti, silenzio e rumore, solitudine e compagnia, e mostra quanto quella disposizione sia più fragile di quanto sembri: il silenzio assoluto che Cage scopre irraggiungibile, il rumore che Schopenhauer considera una tortura per l'intelletto, la solitudine che per Thoreau e Montaigne è laboratorio e per un detenuto è condanna, a seconda di chi ha la chiave della porta. Non è un elogio del ritiro contro il rumore del mondo: è la mappa di un'ecologia che ciascuno deve continuare a rinegoziare, sapendo che nessuna delle quattro condizioni porta in sé il proprio valore, finché non si decide chi ha la libertà di sceglierla.",
+      "keywords": [
+        "silenzio",
+        "solitudine",
+        "rumore",
+        "compagnia",
+        "Pascal",
+        "Cage",
+        "Schopenhauer",
+        "Buber",
+        "isolamento"
+      ],
+      "zlib_category": "Philosophy",
+      "kdp_categories": [
+        "PHILOSOPHY / Mind & Body",
+        "PSYCHOLOGY / Emotions",
+        "SOCIAL SCIENCE / Sociology / General"
+      ],
+      "zenodo": {
+        "deposit_id": 22010685,
+        "url": "https://zenodo.org/record/22010685",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010685",
+        "doi": "10.5281/zenodo.22010685",
+        "concept_doi": "10.5281/zenodo.22010684"
+      },
+      "asin": "B0H9FM6YHV",
+      "pages": 59
+    },
+    {
+      "n": 16,
+      "title": "Il Trono Vuoto — Perché il Potere ha Bisogno di Sudditi",
+      "folder": "Completati/Il Trono Vuoto — Perché il Potere ha Bisogno di Sudditi",
+      "file": "Il Trono Vuoto",
+      "color": "#6B2333",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Alla corte di Lilliput, racconta Swift, le cariche si assegnano ai più fedeli, non ai più capaci. Nel 1548 un diciottenne francese, Étienne de La Boétie, capovolse la domanda che la filosofia politica si era sempre posta: perché il tiranno ha bisogno dei sudditi, non perché i sudditi obbediscono. La sua tesi resta la più scomoda mai scritta sul potere: il tiranno non ha un solo soldato di suo, e il suo dominio è un prestito che i sudditi gli rinnovano ogni giorno. Questo libro segue quella tesi attraverso Hegel e Machiavelli, Hobbes e Nietzsche, Confucio e Laozi, i Vangeli e la profezia di Bakunin, fino ad Acton e a Robert Caro, che si dividono sull'ultima domanda: il potere corrompe, o si limita a rivelare chi eravamo già? Il trono, sostiene questo libro, è vuoto due volte: ha bisogno di chi lo sostiene, e svuota chiunque riesca a sedercisi.",
+      "keywords": [
+        "potere",
+        "narcisismo",
+        "psicopatia organizzativa",
+        "leadership",
+        "Arendt",
+        "Russell",
+        "corte"
+      ],
+      "zlib_category": "Psychology",
+      "kdp_categories": [
+        "PSYCHOLOGY / Social Psychology",
+        "POLITICAL SCIENCE / Political Process / Leadership",
+        "BUSINESS & ECONOMICS / Leadership"
+      ],
+      "zenodo": {
+        "deposit_id": 22010687,
+        "url": "https://zenodo.org/record/22010687",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010687",
+        "doi": "10.5281/zenodo.22010687",
+        "concept_doi": "10.5281/zenodo.22010686"
+      },
+      "asin": "B0HBQTWTF1",
+      "pages": 63
+    },
+    {
+      "n": 17,
+      "title": "Il Futuro Non Vota — Nostalgia, demografia e la rinuncia italiana all'innovazione",
+      "folder": "Completati/Il Futuro Non Vota — Nostalgia, demografia e la rinuncia italiana all'innovazione",
+      "file": "Il Futuro Non Vota",
+      "color": "#7C8580",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Nel 2024 in Italia sono nati meno di 370.000 bambini, il numero più basso dall'Unità. Da questo dato il libro risale a una domanda scomoda: perché un paese che invecchia smette anche di investire nel proprio futuro? Attraverso Bauman e la sua retrotopia, Boym e le due nostalgie (restaurativa e riflessiva), Jankélévitch e l'irreversibile, il libro segue il modo in cui la nostalgia collettiva, la paura del rischio e la rendita di posizione si sono saldate in un'unica rinuncia italiana all'innovazione. Non è un instant book sulla decrescita demografica: è un tentativo di capire perché il futuro, in un paese di anziani, smette di avere elettori.",
+      "keywords": [
+        "demografia",
+        "nostalgia",
+        "retrotopia",
+        "Bauman",
+        "innovazione",
+        "invecchiamento",
+        "Italia"
+      ],
+      "zlib_category": "Social sciences - Politics",
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Demography",
+        "POLITICAL SCIENCE / Public Policy / General",
+        "HISTORY / Europe / Italy"
+      ],
+      "zenodo": {
+        "deposit_id": 22010690,
+        "url": "https://zenodo.org/record/22010690",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010690",
+        "doi": "10.5281/zenodo.22010690",
+        "concept_doi": "10.5281/zenodo.22010689"
+      },
+      "asin": "B0HBQL2WZQ",
+      "pages": 49
+    },
+    {
+      "n": 18,
+      "title": "Persone e Personaggi — Autenticità e Falsificazione dell'Io",
+      "folder": "Completati/Persone e Personaggi — Autenticità e Falsificazione dell'Io",
+      "file": "Persone e Personaggi",
+      "color": "#3D9898",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Nel V secolo a.C. chi saliva sul palco ad Atene indossava sul volto una maschera di terracotta: non per nascondersi, ma perché era l'unico volto che il teatro riconoscesse come reale. Duemilacinquecento anni dopo diciamo ancora «sii te stesso», convinti che dietro ogni persona ci sia un individuo autentico in attesa di essere liberato. Ma la parola persona nasce come maschera, giuridica prima che psicologica, e la sua storia, dal diritto romano alla teologia trinitaria fino al lessico dell'individuo moderno, smentisce quella convinzione fin dalla radice. Questo libro attraversa Goffman e Jung, Pessoa e Pirandello, Wilde e Sartre, Lacan e Mead, il cinema di Bergman e Jodorowsky, la pittura di Ensor e Magritte, fino a Bob Dylan e Philip K. Dick, per chiedersi se sotto la maschera ci sia davvero qualcosa da trovare, o se «io» non sia il nome di una cosa ma il nome di un processo che non smette mai di rispondere alla stessa domanda: chi sei davvero?",
+      "keywords": [
+        "identità",
+        "persona",
+        "maschera",
+        "Goffman",
+        "Jung",
+        "Sartre",
+        "Wilde",
+        "autenticità"
+      ],
+      "zlib_category": "Psychology",
+      "kdp_categories": [
+        "PSYCHOLOGY / Social Psychology",
+        "PHILOSOPHY / Mind & Body",
+        "SOCIAL SCIENCE / Sociology / General"
+      ],
+      "zenodo": {
+        "deposit_id": 22010694,
+        "url": "https://zenodo.org/record/22010694",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010694",
+        "doi": "10.5281/zenodo.22010694",
+        "concept_doi": "10.5281/zenodo.22010693"
+      },
+      "asin": "B0HF8QWHNF",
+      "pages": 79
+    },
+    {
+      "n": 19,
+      "title": "Divi e Divismo — I Quindici Minuti di Celebrità",
+      "folder": "Completati/Divi e Divismo — I Quindici Minuti di Celebrità",
+      "file": "Divi e Divismo",
+      "color": "#8891A0",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Nel 1962 Andy Warhol comincia a serigrafare il volto di Marilyn Monroe appena morta: cinquanta ripetizioni della stessa fotografia promozionale, mai un ritratto dal vero. Sei anni dopo gli viene attribuita la frase più citata mai scritta sulla fama, «in futuro tutti saranno famosi per quindici minuti», che con ogni probabilità non disse mai: fu un direttore di museo a deciderlo, dopo aver verificato che in nessun suo scritto esisteva. Da questo doppio equivoco nasce un libro che rovescia la domanda consueta sul divismo: non che cosa abbia di eccezionale chi è famoso, ma che cosa produca, in chi guarda, l'atto di guardarlo. Da Edgar Morin, che nel divo riconosce un ibrido fra l'uomo e il dio, a Guy Debord, per cui la notorietà è un favore sempre revocabile, fino a Richard Dyer, che segue un pubblico capace di sabotare l'immagine costruita dall'industria, il libro attraversa duemila anni di fabbricazione della celebrità: dal senato romano che decretava la divinità di un imperatore morto fino al pubblico dei social che produce, gratis e senza saperlo, la fama degli sconosciuti. Non è un libro contro il divismo. È un tentativo di capire chi, alla fine, ne paga il conto.",
+      "keywords": [
+        "celebrità",
+        "divismo",
+        "Hollywood",
+        "fama",
+        "star system",
+        "Warhol",
+        "social media"
+      ],
+      "zlib_category": "Social sciences - Media and communication",
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Popular Culture",
+        "PERFORMING ARTS / Film / History & Criticism",
+        "SOCIAL SCIENCE / Media Studies"
+      ],
+      "zenodo": {
+        "deposit_id": 22010696,
+        "url": "https://zenodo.org/record/22010696",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010696",
+        "doi": "10.5281/zenodo.22010696",
+        "concept_doi": "10.5281/zenodo.22010695"
+      },
+      "asin": "B0HFC8FDKR",
+      "pages": 69
+    },
+    {
+      "n": 20,
+      "title": "Le Forme del Tempo — Lineare, circolare, a loop",
+      "folder": "Completati/Le Forme del Tempo — Lineare, circolare, a loop",
+      "file": "Le Forme del Tempo",
+      "color": "#4A5BA8",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "blurb": "Nel primo dei mondi che Alan Lightman fa sognare a Einstein il tempo è circolare: tutto ritorna, e nessuno se ne accorge. Da lì parte questo libro, che segue le tre forme in cui l'esperienza del tempo si è organizzata. La linea, che Agostino inaugura chiedendosi che cosa sia il tempo, diventa storia con Hegel e Koselleck e trova conferma nella freccia dell'entropia. Il cerchio, che Eliade ritrova nelle società arcaiche e nel samsara, torna in Vico e nell'eterno ritorno di Nietzsche. Il loop, che non è né l'una né l'altro, compare in Borges e Murakami, nella coazione a ripetere che Fachinelli descrive come una freccia ferma, nell'universo rotante di Gödel e nel feed che ripropone a ciascuno quello che ha già guardato. Le tre forme non sono teorie rivali fra cui scegliere, ma tre modi in cui lo stesso tempo si lascia vivere, e nessun osservatore può porsi al di fuori del tempo per stabilire quale sia quello vero. Resta la domanda di che cosa si possa fare vivendolo, e Kant, Bergson, Heidegger e Dōgen rispondono in modo diverso, ma tutti dall'interno.",
+      "keywords": [
+        "tempo",
+        "tempo lineare",
+        "tempo circolare",
+        "eterno ritorno",
+        "Agostino",
+        "Eliade",
+        "Nietzsche",
+        "Borges",
+        "Dōgen"
+      ],
+      "zlib_category": "Philosophy",
+      "kdp_categories": [
+        "PHILOSOPHY / Metaphysics",
+        "SCIENCE / Philosophy & Social Aspects",
+        "RELIGION / Comparative Religion"
+      ],
+      "zenodo": {
+        "deposit_id": 22010698,
+        "url": "https://zenodo.org/record/22010698",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22010698",
+        "doi": "10.5281/zenodo.22010698",
+        "concept_doi": "10.5281/zenodo.22010697"
+      },
+      "asin": "B0HF9B9779",
+      "pages": 63
+    }
+  ]
+}

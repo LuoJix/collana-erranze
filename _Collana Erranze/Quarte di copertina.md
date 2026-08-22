@@ -1,0 +1,125 @@
+# Quarte di copertina — Collana Erranze
+
+Testo definitivo (campo `blurb` in `serie.json`), rivisto dall'autore e rifinito.
+
+---
+
+## 1. Il Golem — Argilla e Parola
+
+La parola «Golem», che deriva dall'ebraico antico, si incontra per la prima e unica volta nella Bibbia (Salmo 139,16). Viene tradotta come massa informe, materia grezza, embrione. La tradizione ebraica la identifica con un essere umano artificiale creato con l'argilla e animato dalla parola. Secondo la tradizione, fu nel XVI secolo, nella Praga di Rodolfo II, che Rabbi Loew cominciò a creare golem da utilizzare come servi, plasmandoli con l'argilla e risvegliandoli scrivendo sulla fronte la parola «Emet» («Verità»). Dal ghetto di Praga la leggenda si diffuse nell'ambiente letterario, con Borges e Singer, in quello cinematografico, da Wegener a Kubrick, che in HAL 9000 trova il suo Golem elettronico, in quello artistico, in quello musicale e in quello della cibernetica, da Norbert Wiener in poi, per porre la domanda cruciale: cosa significhi dare vita a ciò che si è plasmato.
+
+---
+
+## 2. Abitare la Soglia — Una cartografia della coscienza
+
+In questo libro la parola «soglia» viene usata per descrivere la zona in cui coesistono il dentro e il fuori. Sarà un excursus, che abbiamo chiamato cartografia, attraverso la filosofia, la mistica, la letteratura e le scienze, per porci una domanda semplice e scomoda: perché cerchiamo in tutti i modi di uscire da quella soglia?
+
+---
+
+## 3. Errare — Mito e Spazio del Labirinto
+
+Il mito del labirinto è sempre stato un tema che ha affascinato gli uomini. Questo libro racconta il mito di Dedalo, Teseo e Arianna per addentrarsi, poi, nella filosofia dell'erranza da Heidegger a Benjamin. Toccherà la letteratura con Borges, Kafka, Calvino, Murakami. Cercherà con Hofstadter le interconnessioni fra Bach, Escher e Gödel. Ma il labirinto non è solo un mito o una metafora: è anche uno spazio reale, dai centri commerciali progettati per trattenere chi vi entra, alle periferie senza centro, fino al labirinto digitale del feed infinito, costruito da un algoritmo che è il nuovo Dedalo. Non promette vie d'uscita, ma questo non era l'obiettivo.
+
+---
+
+## 4. Il Luogo Comune — Viaggiare nell'Epoca della Sua Riproducibilità
+
+Nel 1935 Walter Benjamin scrisse che l'opera d'arte riprodotta perde l'aura. Questo era riferito ai quadri. Ma ciò adesso vale anche per i luoghi. Tutti i posti che visitiamo li conosciamo già prima di esserci arrivati, non tanto da una raffigurazione mentale immaginata, ma da fotografie e da milioni di sguardi. Quindi i luoghi che visitiamo non li scopriamo ma li riconosciamo. Da Thomas Cook all'algoritmo di Instagram, dal Grand Tour alla crisi abitativa delle città turistificate, questo libro segue la trasformazione dei luoghi in immagini di se stessi, e si chiede cosa significhi, oggi, abitare un posto invece di limitarsi ad attraversarlo.
+
+---
+
+## 5. Causalità e Sincronicità — Una problematizzazione senza tesi
+
+Per interrogare l'I Ching, il libro-oracolo cinese, si lanciano per sei volte tre monete uguali. L'emblema della sincronicità: un gesto qualunque della nostra vita è collegato a tutti i nostri problemi. Ma le cose stanno davvero così, o negli eventi c'è un rapporto causa-effetto, come sostenevano già Aristotele e Laplace? Il libro segue la frattura di questo principio nella fisica del Novecento, da Bell a Bohm, e la sincronicità di Jung, il suo concetto più controverso e meno compreso. Mette in tensione due descrizioni della realtà, irriducibili l'una all'altra, senza cercare una sintesi che le risolva. Non è un trattato che chiude la domanda. È un libro che la tiene aperta, e ferma.
+
+---
+
+## 6. Vendere il Cielo — La Pubblicità come Paesaggio Totale
+
+La pubblicità costituisce la colonna sonora della nostra giornata, o forse la trama in cui è intessuta la nostra vita: è diventata l'ambiente in cui viviamo, troppo presente per essere vista, come l'acqua per il pesce. Questo libro passa in rassegna i principali teorici della pubblicità e ricostruisce un secolo di tecniche per vendere non più prodotti ma significati: libertà, appartenenza, identità, fino ai progetti per lanciare satelliti pubblicitari nel cielo notturno. Il libro si chiude su una domanda che riguarda tutti: chi ha messo il cielo lì, prima che qualcuno pensasse di venderlo?
+
+---
+
+## 7. La Natura non Esiste — Una storia culturale dell'ambiente
+
+Quando ci rechiamo in vacanza, per esempio sull'Altopiano di Pine', ci troviamo, talvolta, a esclamare: «Finalmente natura vera». Non ci passa dalla mente che i prati sono il risultato di secoli di alpeggio e che i laghi sono al servizio di impianti idroelettrici. Questo libro sostiene che la natura come regno separato, puro, esterno all'umano non è la più antica delle idee: è un'invenzione recente, costruita tra Seicento e Ottocento e oggi in via di superamento. Da Aristotele a Cartesio, dal Romanticismo a Darwin, da Lovelock a Latour, una storia culturale che non nega gli alberi, i fiumi, le montagne: nega solo il contenitore concettuale in cui li abbiamo chiusi. E lascia, alla fine, un mondo senza alibi: più difficile da proteggere con una parola sola, più facile da abitare con consapevolezza.
+
+---
+
+## 8. La Piazza Privata — Media dal basso, proprietà dall'alto
+
+A 220 anni dalla Dichiarazione di Indipendenza degli Stati Uniti, nel 1996, John Perry Barlow scrisse la Dichiarazione di Indipendenza del Cyberspazio. Tale documento oggi si legge su server di proprietà altrui: il paradosso da cui parte questo libro. La rete avrebbe dovuto essere una piazza senza padroni, dove chiunque potesse parlare senza chiedere permesso a un editore. Quella promessa in parte si è realizzata e in parte rovesciata: la voce è libera, ma lo spazio in cui risuona appartiene a un'azienda privata. Sapere a chi si paga l'affitto è già, forse, un primo passo per discuterne i termini.
+
+---
+
+## 9. Il Sudore della Fronte — Una storia culturale del lavoro
+
+«Con il sudore del tuo volto mangerai il pane»: la maledizione di Genesi 3,19 è incisa, anche per chi non l'ha mai letta, nel modo in cui ancora oggi misuriamo il valore di una vita attraverso il mestiere che la occupa. Eppure nel 1930 John Maynard Keynes prevedeva che il progresso tecnico avrebbe ridotto la settimana lavorativa a quindici ore: la previsione economica più sbagliata, e più rivelatrice, del Novecento. Questo libro attraversa la storia del lavoro dai cacciatori-raccoglitori di Sahlins alla vocazione protestante, dalla catena di montaggio ai *bullshit jobs* di David Graeber, per chiedersi come una pena biblica sia diventata, in Occidente, sinonimo di realizzazione di sé. Non sceglie tra condanna e vocazione. Mostra perché continuiamo, da millenni, a oscillare tra le due.
+
+---
+
+## 10. I Parenti Poveri — Storia culturale e scientifica dei Neandertal
+
+Nel 1856, nella valle del fiume Neander, degli operai trovarono ossa strane che qualcuno scambiò per quelle di un soldato malato. Era l'inizio di un equivoco durato due secoli: i Neandertal, nostri parenti più prossimi estinti, vennero costruiti come bruti, gradino inferiore nella scala del progresso. La genetica moderna ha ribaltato questo quadro: tra il due e il quattro percento del DNA degli esseri umani non africani è di origine neandertaliana. Non sono mai scomparsi del tutto. Questo libro segue la loro storia reale, fatta di tecnologia litica sofisticata, cura dei malati, sepolture, arte simbolica, e poi smonta lo stereotipo, ne ricostruisce le radici culturali e ideologiche, e arriva alla domanda che resta aperta: perché avevamo bisogno che fossero quello che non erano?
+
+---
+
+## 11. La Creatura Imperfetta — Umanesimo, Transumanesimo, Postumanesimo
+
+Un amico da sempre contrario al telefonino chiama dal suo cellulare. Il ragionamento che ne segue è il punto di partenza di questo libro: non si può rifiutare la tecnologia a pezzi. Il rifiuto coerente è totale, come quello di Kaczynski, o valutativo, come quello degli Amish, che per ogni novità si chiedono se rafforza o indebolisce la comunità. Tutto il resto è nostalgia travestita da principio. Tre grandi tradizioni del pensiero contemporaneo hanno risposto diversamente alla domanda su cosa valga la pena proteggere nell'umano, e cosa valga la pena migliorare: l'umanesimo, che difende la dignità irriducibile della persona; il transumanesimo, che vede nell'enhancement il prolungamento naturale della specie; il postumanesimo, che propone di sciogliere la categoria stessa di «umano». Questo libro le cartografa senza arbitrare, e porta alla fine un criterio semplice e difficile nelle applicazioni: favorevoli a tutto ciò che migliora la condizione umana.
+
+---
+
+## 12. Il Caso Abolito — La progettazione dell'autenticità
+
+Ogni matrimonio ben riuscito ha un momento in cui qualcosa non torna: il sorriso fotografato per la quarta volta, il brindisi studiato nei minimi dettagli. In Italia i matrimoni calano da decenni mentre l'industria del wedding planning si espande: quando la sostanza si indebolisce, la forma compensa. Questo libro indaga il paradosso strutturale dell'ingegnerizzazione applicata al mito: un'esperienza trae il proprio valore dalla contingenza, dal rischio, dalla possibilità del fallimento, e proprio quando viene ottimizzata e pianificata perde la qualità che la rendeva necessaria. Da Eliade a Van Gennep, da Weber a Baudrillard, attraversando Disneyland, il Gender Reveal, Woodstock e Coachella, il Natale e il Noma, il libro mostra come la ricerca dell'autenticità, portata all'eccesso del controllo, produca sempre la sua simulazione. Non è un invito a smettere di organizzare: è una mappa di ciò che nessuna organizzazione può produrre, perché può solo essere lasciato accadere.
+
+---
+
+## 13. Utopia e Distopia — La Politica del Mondo (Im)Perfetto
+
+Nel 1516 Tommaso Moro scrisse un libro su un'isola che non esiste, e la chiamò con una parola che non significava nulla: Utopia. Da allora il non-luogo ha proliferato: la Città del Sole di Campanella, Oceania di Orwell, il Pacifico di Huxley, Anarres di Le Guin, la Cina distopica di Liu Cixin. Questo libro percorre cinque secoli di immaginazione politica del mondo perfetto e del suo rovescio per mostrare che non sono opposti: sono le due facce della stessa domanda. Ogni utopia è la critica implicita del presente in cui è nata. Ogni distopia è l'analisi dei pericoli che quel presente contiene. Insieme compongono qualcosa che potrebbe chiamarsi immaginazione politica: la capacità di non prendere il presente per necessario.
+
+---
+
+## 14. La Soglia della Cura — Destino, colpa, luogo, classe: chi decide di che cosa ci ammaliamo
+
+Due decaloghi per restare in salute, identici nella forma e opposti nel contenuto: uno chiede al singolo di non fumare, muoversi, mangiare bene; l'altro, firmato da un centro di ricerca sulla povertà, chiede di non essere poveri, di non abitare vicino a una fabbrica, di non fare un lavoro usurante. Da questo scarto nasce il libro. Ogni epoca decide quali cause della malattia trattare come destino iscritto nel corpo, quali come colpa individuale, quali come ambiente, classe o merce, e quella scelta non è mai neutra: sposta il costo dell'intervento, quasi sempre verso chi ha meno voce. Con Sontag, Illich, Marmot, Foucault, Esposito, Polanyi e molti altri, il libro segue chi decide dove passa la soglia della cura: quali cause del nostro ammalarci affrontare e quali lasciare al destino. Non un atto d'accusa, ma la mappa di una domanda politica travestita da domanda scientifica.
+
+---
+
+## 15. La Stanza di Pascal — Silenzio, Solitudine, Rumore, Compagnia
+
+«Tutta la sventura degli uomini viene da una sola cosa: non saper restare in quiete in una stanza.» Così scriveva Pascal nel Seicento, molto prima che il telefono in tasca rendesse quella diagnosi un'esperienza quotidiana. Questo libro segue quattro condizioni che il linguaggio comune dispone in coppie di opposti, silenzio e rumore, solitudine e compagnia, e mostra quanto quella disposizione sia più fragile di quanto sembri: il silenzio assoluto che Cage scopre irraggiungibile, il rumore che Schopenhauer considera una tortura per l'intelletto, la solitudine che per Thoreau e Montaigne è laboratorio e per un detenuto è condanna, a seconda di chi ha la chiave della porta. Non è un elogio del ritiro contro il rumore del mondo: è la mappa di un'ecologia che ciascuno deve continuare a rinegoziare, sapendo che nessuna delle quattro condizioni porta in sé il proprio valore, finché non si decide chi ha la libertà di sceglierla.
+
+---
+
+## 16. Il Trono Vuoto — Perché il Potere ha Bisogno di Sudditi
+
+Alla corte di Lilliput, racconta Swift, le cariche si assegnano ai più fedeli, non ai più capaci. Nel 1548 un diciottenne francese, Étienne de La Boétie, capovolse la domanda che la filosofia politica si era sempre posta: perché il tiranno ha bisogno dei sudditi, non perché i sudditi obbediscono. La sua tesi resta la più scomoda mai scritta sul potere: il tiranno non ha un solo soldato di suo, e il suo dominio è un prestito che i sudditi gli rinnovano ogni giorno. Questo libro segue quella tesi attraverso Hegel e Machiavelli, Hobbes e Nietzsche, Confucio e Laozi, i Vangeli e la profezia di Bakunin, fino ad Acton e a Robert Caro, che si dividono sull'ultima domanda: il potere corrompe, o si limita a rivelare chi eravamo già? Il trono, sostiene questo libro, è vuoto due volte: ha bisogno di chi lo sostiene, e svuota chiunque riesca a sedercisi.
+
+---
+
+## 17. Il Futuro Non Vota — Nostalgia, demografia e la rinuncia italiana all'innovazione
+
+Nel 2024 in Italia sono nati meno di 370.000 bambini, il numero più basso dall'Unità. Da questo dato il libro risale a una domanda scomoda: perché un paese che invecchia smette anche di investire nel proprio futuro? Attraverso Bauman e la sua retrotopia, Boym e le due nostalgie (restaurativa e riflessiva), Jankélévitch e l'irreversibile, il libro segue il modo in cui la nostalgia collettiva, la paura del rischio e la rendita di posizione si sono saldate in un'unica rinuncia italiana all'innovazione. Non è un instant book sulla decrescita demografica: è un tentativo di capire perché il futuro, in un paese di anziani, smette di avere elettori.
+
+---
+
+## 18. Persone e Personaggi — Autenticità e Falsificazione dell'Io
+
+Nel V secolo a.C. chi saliva sul palco ad Atene indossava sul volto una maschera di terracotta: non per nascondersi, ma perché era l'unico volto che il teatro riconoscesse come reale. Duemilacinquecento anni dopo diciamo ancora «sii te stesso», convinti che dietro ogni persona ci sia un individuo autentico in attesa di essere liberato. Ma la parola persona nasce come maschera, giuridica prima che psicologica, e la sua storia, dal diritto romano alla teologia trinitaria fino al lessico dell'individuo moderno, smentisce quella convinzione fin dalla radice. Questo libro attraversa Goffman e Jung, Pessoa e Pirandello, Wilde e Sartre, Lacan e Mead, il cinema di Bergman e Jodorowsky, la pittura di Ensor e Magritte, fino a Bob Dylan e Philip K. Dick, per chiedersi se sotto la maschera ci sia davvero qualcosa da trovare, o se «io» non sia il nome di una cosa ma il nome di un processo che non smette mai di rispondere alla stessa domanda: chi sei davvero?
+
+---
+
+## 19. Divi e Divismo — I Quindici Minuti di Celebrità
+
+Nel 1962 Andy Warhol comincia a serigrafare il volto di Marilyn Monroe appena morta: cinquanta ripetizioni della stessa fotografia promozionale, mai un ritratto dal vero. Sei anni dopo gli viene attribuita la frase più citata mai scritta sulla fama, «in futuro tutti saranno famosi per quindici minuti», che con ogni probabilità non disse mai: fu un direttore di museo a deciderlo, dopo aver verificato che in nessun suo scritto esisteva. Da questo doppio equivoco nasce un libro che rovescia la domanda consueta sul divismo: non che cosa abbia di eccezionale chi è famoso, ma che cosa produca, in chi guarda, l'atto di guardarlo. Da Edgar Morin, che nel divo riconosce un ibrido fra l'uomo e il dio, a Guy Debord, per cui la notorietà è un favore sempre revocabile, fino a Richard Dyer, che segue un pubblico capace di sabotare l'immagine costruita dall'industria, il libro attraversa duemila anni di fabbricazione della celebrità: dal senato romano che decretava la divinità di un imperatore morto fino al pubblico dei social che produce, gratis e senza saperlo, la fama degli sconosciuti. Non è un libro contro il divismo. È un tentativo di capire chi, alla fine, ne paga il conto.
+
+---
+
+## 20. Le Forme del Tempo — Lineare, circolare, a loop
+
+Nel primo dei mondi che Alan Lightman fa sognare a Einstein il tempo è circolare: tutto ritorna, e nessuno se ne accorge. Da lì parte questo libro, che segue le tre forme in cui l'esperienza del tempo si è organizzata. La linea, che Agostino inaugura chiedendosi che cosa sia il tempo, diventa storia con Hegel e Koselleck e trova conferma nella freccia dell'entropia. Il cerchio, che Eliade ritrova nelle società arcaiche e nel samsara, torna in Vico e nell'eterno ritorno di Nietzsche. Il loop, che non è né l'una né l'altro, compare in Borges e Murakami, nella coazione a ripetere che Fachinelli descrive come una freccia ferma, nell'universo rotante di Gödel e nel feed che ripropone a ciascuno quello che ha già guardato. Le tre forme non sono teorie rivali fra cui scegliere, ma tre modi in cui lo stesso tempo si lascia vivere, e nessun osservatore può porsi al di fuori del tempo per stabilire quale sia quello vero. Resta la domanda di che cosa si possa fare vivendolo, e Kant, Bergson, Heidegger e Dōgen rispondono in modo diverso, ma tutti dall'interno.
+
+---

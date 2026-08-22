@@ -1,0 +1,169 @@
+{
+  "series": {
+    "name": "Errancies",
+    "author": "Giovanni Martini",
+    "language": "en",
+    "root": "English",
+    "note": "Edizione inglese autonoma. Numerazione propria, indipendente da quella della Collana Erranze: l'origine italiana e' registrata in 'original' e finisce nella riga di colophon del .md. Sul commercio: l'epub resta libero e gratuito (CC BY-NC-SA, via Z-Library); il cartaceo e' pubblicato su KDP, che e' la sola strada per averne copie stampate. I prezzi qui sotto seguono gli scaglioni della collana italiana ma servono soprattutto a rendere possibili le copie d'autore, che si acquistano al costo di stampa.",
+    "description": "What holds the volumes together is not a subject but a gesture: to take an idea we take for granted, follow it as it strays across distant disciplines — philosophy, physics, anthropology, literature, myth — and leave the tension open instead of closing it into a thesis. No easy syntheses. Errancies is the name of the method. To err, in the full and older sense the word still keeps in knight-errant, is to wander, to stray, to go wrong; and it is off the straight road that you find what the straight road would never have shown you.",
+    "zlib_series": "Errancies"
+  },
+  "books": [
+    {
+      "n": 1,
+      "title": "The Golem — Clay and Word",
+      "folder": "The Golem — Clay and Word",
+      "file": "The Golem",
+      "color": "#C4724A",
+      "original": {
+        "title": "Il Golem — Argilla e Parola",
+        "n": 1
+      },
+      "blurb": "The word golem appears once in the Hebrew Bible, in Psalm 139, where it means something unfinished: raw matter, an embryo, a body that has not yet been given a shape. Jewish tradition turned it into a creature of clay woken by language, and sixteenth-century Prague gave it a maker: Rabbi Loew, who wrote the word emet, truth, on its forehead, and could put it back to sleep by rubbing out a single letter. This book follows the figure after it left the ghetto. Borges made it a poem in which the rabbi watches his creature and God watches the rabbi. Čapek put it on an assembly line and opened the century of robots. Kubrick and Clarke gave it a calm voice and a camera for an eye. Wiener found it already waiting inside cybernetics, and Ozick, Piercy and Chabon set it to work on twentieth-century grief. Through literature, cinema, music, painting and popular culture the same question keeps returning in new costumes, and it was never whether clay can be made to walk. It is what we owe the thing we have animated, and who answers for it when it will not stop.",
+      "price_ebook_eur": 4.49,
+      "price_paperback_eur": 10.9,
+      "price_paperback_usd": 10.99,
+      "keywords": [
+        "golem",
+        "Jewish myth",
+        "Prague",
+        "kabbalah",
+        "automata",
+        "artificial intelligence",
+        "Borges",
+        "Čapek"
+      ],
+      "zlib_category": "Literature - Literary criticism",
+      "kdp_categories": [
+        "LITERARY CRITICISM / Comparative Literature",
+        "RELIGION / Judaism / History",
+        "SOCIAL SCIENCE / Folklore & Mythology"
+      ],
+      "zenodo": {
+        "deposit_id": 22011130,
+        "url": "https://zenodo.org/record/22011130",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22011130",
+        "doi": "10.5281/zenodo.22011130",
+        "concept_doi": "10.5281/zenodo.22011129"
+      },
+      "asin": "B0HFB286K6",
+      "pages": 117
+    },
+    {
+      "n": 2,
+      "title": "Nature Does Not Exist — A Cultural History of the Environment",
+      "folder": "Nature Does Not Exist — A Cultural History of the Environment",
+      "file": "Nature Does Not Exist",
+      "color": "#6AB8A0",
+      "original": {
+        "title": "La Natura non Esiste — Una storia culturale dell'ambiente",
+        "n": 7
+      },
+      "blurb": "On a plateau in the Italian Alps, on a certain kind of late-summer day, people look at the mountains and the lakes and think: real nature, at last. The meadows are there because cattle grazed them for centuries. The lakes are a hydroelectric installation. The Dolomites on the skyline are dead coral reefs. This book argues that nature, understood as a realm separate from human civilisation and holding value and laws of its own, is not the oldest of human ideas but one of the most recent: it took shape between the seventeenth and the nineteenth centuries and is coming apart now. Aristotle had no word for it. Descartes made the world a machine and Rousseau made it a lost paradise. Humboldt invented it in the sense we still use. Leopardi called it a stepmother that does not know we exist. Darwin dissolved its border, ecology found no balance inside it, and Latour, Morton and Haraway have been trying to think without it. None of this denies the trees, the rivers or the mountains. It denies the container we shut them in, and the word that let us call a flood, an extinction or an inequality nobody's doing. What is left is a world without alibis: harder to protect with a single word, and easier to inhabit with your eyes open.",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "price_paperback_usd": 8.99,
+      "keywords": [
+        "nature",
+        "environment",
+        "Anthropocene",
+        "ecology",
+        "cultural history",
+        "Descola",
+        "Latour",
+        "Morton"
+      ],
+      "zlib_category": "Social sciences - Ecology and environment",
+      "kdp_categories": [
+        "NATURE / Environmental Conservation & Protection",
+        "PHILOSOPHY / Environmental",
+        "HISTORY / Social History"
+      ],
+      "zenodo": {
+        "deposit_id": 22011138,
+        "url": "https://zenodo.org/record/22011138",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22011138",
+        "doi": "10.5281/zenodo.22011138",
+        "concept_doi": "10.5281/zenodo.22011137"
+      },
+      "asin": "B0HFCV377F",
+      "pages": 69
+    },
+    {
+      "n": 3,
+      "title": "The Threshold of Care — Fate, Blame, Place, Class",
+      "folder": "The Threshold of Care — Fate, Blame, Place, Class",
+      "file": "The Threshold of Care",
+      "color": "#2E6E6A",
+      "original": {
+        "title": "La Soglia della Cura — Destino, colpa, luogo, classe: chi decide di che cosa ci ammaliamo",
+        "n": 14
+      },
+      "blurb": "In 1999 the Chief Medical Officer for England published ten tips for better health: don't smoke, eat your vegetables, keep active, drink in moderation. A poverty research centre at the University of Bristol replied with ten of its own, in exactly the same imperative voice: don't be poor, don't live in a deprived area, don't work in a stressful low-paid job, be able to afford a car. Neither list is wrong. They simply put the cause of illness in two different places, and every society has to choose which one to use as its lens — a choice that decides where the cost of doing something will fall, and it falls, almost always, on the people with least standing to object. This book follows that choice through five registers: the body inherited without consent, the blame attached to how we live, the air nobody chooses to breathe, the step on a social ladder that shortens a life, and the market that decides which of the first four is worth naming at all. Sontag on the diseases made to express a character, Illich on the threshold past which medicine produces the illness it treats, Marmot on the year and a half of life expectancy gained with every mile of the Washington metro, and Foucault, Esposito, Polanyi, Geoffrey Rose. Not an indictment. A map of a political question dressed as a scientific one, and of the people who keep answering it on our behalf.",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "price_paperback_usd": 8.99,
+      "keywords": [
+        "social determinants of health",
+        "public health",
+        "health inequalities",
+        "medicalisation",
+        "overdiagnosis",
+        "Illich",
+        "Marmot",
+        "Sontag",
+        "Dubos"
+      ],
+      "zlib_category": "Medicine - Public health",
+      "kdp_categories": [
+        "MEDICAL / Public Health",
+        "SOCIAL SCIENCE / Disease & Health Issues",
+        "POLITICAL SCIENCE / Public Policy / Social Services & Welfare"
+      ],
+      "zenodo": {
+        "deposit_id": 22011140,
+        "url": "https://zenodo.org/record/22011140",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22011140",
+        "doi": "10.5281/zenodo.22011140",
+        "concept_doi": "10.5281/zenodo.22011139"
+      },
+      "asin": "B0HFCYP3FC",
+      "pages": 71
+    }
+  ],
+  "planned": [
+    {
+      "title": "The Commonplace — Travel in the Age of Its Reproducibility",
+      "folder": "The Commonplace — Travel in the Age of Its Reproducibility",
+      "file": "The Commonplace",
+      "color": "#C4A852",
+      "original": {
+        "title": "Il Luogo Comune — Viaggiare nell'Epoca della Sua Riproducibilità",
+        "n": 4
+      }
+    },
+    {
+      "title": "Straying — The Myth and Space of the Labyrinth",
+      "folder": "Straying — The Myth and Space of the Labyrinth",
+      "file": "Straying",
+      "color": "#7A9A6A",
+      "original": {
+        "title": "Errare — Mito e Spazio del Labirinto",
+        "n": 3
+      }
+    },
+    {
+      "title": "Causality and Synchronicity — An Inquiry Without a Thesis",
+      "folder": "Causality and Synchronicity — An Inquiry Without a Thesis",
+      "file": "Causality and Synchronicity",
+      "color": "#7878C8",
+      "original": {
+        "title": "Causalità e Sincronicità — Una problematizzazione senza tesi",
+        "n": 5
+      }
+    }
+  ]
+}

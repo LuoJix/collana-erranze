@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Prodotti derivati: si rigenerano dagli script.
+*.epub
+*.pdf
+cover.png
