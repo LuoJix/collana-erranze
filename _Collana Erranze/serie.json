@@ -716,6 +716,43 @@
       },
       "asin": "B0HF9B9779",
       "pages": 63
+    },
+    {
+      "n": 21,
+      "title": "Chi Chiami Fratello — L'unità di base e chi la misura",
+      "folder": "Completati/Chi Chiami Fratello — L'unità di base e chi la misura",
+      "file": "Chi Chiami Fratello",
+      "color": "#4F7A5C",
+      "price_ebook_eur": null,
+      "price_paperback_eur": 8.9,
+      "blurb": "Lo stato di famiglia elenca le persone che il Comune riconosce come una cosa sola, e quella lista non coincide con quella del fisco né con quella del codice civile: nello stesso giorno, la stessa persona appartiene a tre famiglie diverse a seconda dell'ufficio che la guarda. Di qui parte questo libro, che non chiede se la famiglia sia naturale, ma se sia davvero l'unità di base della società. La risposta dipende da chi la misura. Aristotele scompone la città e trova la casa, che però contiene gli schiavi. La Costituente dichiara la famiglia società naturale il primo giorno di lavoro, prima di cominciare a discuterne. Laslett conta i registri parrocchiali inglesi e trova gruppi domestici di 4,75 persone per quattro secoli, ma Berkner obietta che una fotografia non vede il ciclo di vita, e sugli stessi dati compaiono famiglie diverse. Ariès legge i dipinti e trova un Medioevo senza infanzia, Pollock legge i diari e trova genitori affranti da sempre. La Chiesa di Goody vieta i matrimoni fra parenti e in tre secoli riceve un terzo del suolo coltivabile di un regno. Murdock dichiara universale la famiglia nucleare, Gough gli oppone i Nayar del Kerala, e per salvare l'universale deve riscrivere la definizione di matrimonio con una formula che ammette essere «inevitabilmente goffa». Non esiste una particella elementare del sociale: esistono scale di osservazione, ciascuna con il suo strumento, e ogni scala lascia qualcuno fuori dal disegno. Per questo la domanda su quale sia l'unità di base non è una questione di definizioni, ma una domanda su chi paga.",
+      "keywords": [
+        "famiglia",
+        "parentela",
+        "unità di base",
+        "antropologia della parentela",
+        "storia della famiglia",
+        "articolo 29",
+        "Laslett",
+        "Lévi-Strauss",
+        "Nayar"
+      ],
+      "zlib_category": "Social sciences - Sociology",
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Anthropology / Cultural & Social",
+        "SOCIAL SCIENCE / Sociology / Marriage & Family",
+        "HISTORY / Social History"
+      ],
+      "zenodo": {
+        "deposit_id": 22283708,
+        "url": "https://zenodo.org/record/22283708",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22283708",
+        "doi": "10.5281/zenodo.22283708",
+        "concept_doi": "10.5281/zenodo.22283707"
+      },
+      "asin": null,
+      "pages": 63
     }
   ]
 }

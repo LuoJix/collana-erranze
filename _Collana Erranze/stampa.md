@@ -67,6 +67,37 @@ per un'altra strada: là la inserisce `aggiorna-collana.py` dalle costanti
 script**, altrimenti cartaceo ed ebook dello stesso volume dichiarano cose
 diverse.
 
+## La quarta di copertina, e l'area sicura di KDP
+
+KDP rifiuta le copertine che portano testo a meno di **0,375 pollici (9,5 mm)**
+dai bordi, e riserva l'angolo in basso a destra della quarta al proprio codice a
+barre. Fino al settembre 2026 il testo di quarta stava a 0,275 pollici dal
+taglio, sotto la soglia in tutti e ventiquattro i volumi, e nessuno se n'era
+accorto: la copertina si guarda al centro, dove c'è il titolo, non ai margini.
+
+Il 6 settembre 2026 Amazon ha respinto la copertina del vol. 21. Il rilievo
+diceva «testo troppo vicino ai bordi», ma il difetto era più grave: il blurb del
+volume è il più lungo della collana, 1572 caratteri contro una media di 900, e
+il blocco proseguiva **oltre il piede della pagina**. Le ultime righe della
+biografia dell'autore erano fuori dal foglio, cioè non sarebbero mai state
+stampate. Il layout della quarta era a coordinate fisse e non guardava mai dove
+finiva.
+
+Ora `back_panel_svg` fa tre cose. Tiene il testo a `BACK_MARGIN` (0,45 pollici,
+con respiro sul minimo) da entrambi i tagli, il sinistro e la piega del dorso.
+Chiude il blocco sopra `BARCODE_RESERVE` (1,35 pollici dal piede), la fascia che
+KDP si tiene per il codice a barre. E, se il blurb non ci sta, **riduce il corpo
+finché rientra** invece di proseguire: parte da 13 punti e scende a passi del due
+per cento, con la biografia che non scende sotto gli 8,5 punti perché sotto non
+si legge. Sotto `BACK_MIN_SCALE` non genera più niente e chiede di accorciare il
+blurb, dicendo di quanti caratteri.
+
+Oggi quattro volumi su ventiquattro escono a corpo ridotto: il vol. 21 a 10,7
+punti, il 19 a 12,5, gli inglesi 2 e 3 a 12,0 e 11,7. Gli altri venti restano a
+13. **Un corpo molto piccolo è il sintomo di un blurb troppo lungo**, non una
+soluzione tipografica: se un volume scende sotto gli 11 punti, conviene
+riscrivere la quarta più corta invece di accettare la riduzione.
+
 ## La carta, e perché il dorso resta calcolato sulla crema
 
 Su KDP le due collane sono ordinate in **carta di pastalegno** (scelta del 16
@@ -92,7 +123,19 @@ ricaricare ogni copertina, e non correggerebbe niente.
 `Diagnosi/da-ricaricare.txt` tiene l'elenco dei volumi da ricaricare, con
 numero di pagine e larghezza del dorso. **Va rifatto a ogni giro di
 rigenerazione**, perché le date di modifica dei file vengono azzerate e non
-dicono più che cosa è cambiato.
+dicono più che cosa è cambiato. Lo scrive `elenco-da-ricaricare.py`, che legge
+le pagine dai PDF appena generati e segnala se il campo `pages` dei registri non
+concorda:
+
+```bash
+python3 elenco-da-ricaricare.py --motivo "che cosa è cambiato in questo giro"
+python3 elenco-da-ricaricare.py --solo-copertina --motivo "..."
+```
+
+`--solo-copertina` serve quando l'interno non è cambiato: se pagine e dorso sono
+gli stessi, su KDP si sostituisce la sola copertina. Prima l'elenco si compilava
+a mano, ed è così che quello dell'agosto 2026 ha riportato per un giro intero
+pagine più basse di 2-10 per volume.
 
 **Su KDP resta solo la scheda cartacea.** Le schede Kindle sono state eliminate
 il 16 agosto 2026: l'epub è libero e gratuito, e distribuirlo dentro un negozio

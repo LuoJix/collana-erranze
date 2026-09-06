@@ -48,6 +48,15 @@ SPINE_FACTOR = {"white": 0.002252, "cream": 0.0025}
 TOP_MARGIN = 0.75
 BOTTOM_MARGIN = 0.75
 
+# Quarta di copertina. KDP chiede che nessun testo stia a meno di 0.375" dai
+# tagli e riserva l'angolo in basso a destra al codice a barre (2 x 1.2").
+# Il 6 settembre 2026 ha respinto la copertina del vol. 21: il testo era a
+# 0.275" dal taglio e la biografia finiva addirittura fuori dal foglio.
+BACK_MARGIN = 0.45       # margine del testo dai tagli, con respiro sul minimo
+BARCODE_RESERVE = 1.35   # fascia bassa lasciata libera per il codice a barre
+BACK_TOP = 1.10          # prima riga della quarta dal bordo del file (bleed compreso)
+BACK_MIN_SCALE = 0.60    # sotto questa riduzione del corpo il blurb e' da riscrivere
+
 # (pagine massime della fascia, margine interno, margine esterno)
 # Valori KDP minimi → raddoppiati per leggibilità: interno 0.75", esterno 0.50"
 MARGIN_TABLE = [
@@ -449,26 +458,76 @@ def wrap_lines(text, width_in, font_size_pt):
     return textwrap.wrap(text, width=chars_per_line)
 
 
-def back_panel_svg(cfg, blurb, x0, width_units, units_per_in):
+def back_fits(blurb, bio, width_in, top, limite, scale):
+    """Righe e ingombro della quarta a una data scala del corpo.
+
+    Restituisce (righe del blurb, righe della bio, corpo del blurb, passo del
+    blurb, corpo della bio, passo della bio, fondo). Il fondo e' la quota a cui
+    scende l'ultima riga, discendenti compresi: e' quella che deve stare sopra
+    `limite`, non la baseline."""
+    blurb_pt, blurb_step = 13 * scale, 21 * scale
+    # la biografia e' testo di servizio e ha lunghezza quasi fissa: si rimpicciolisce
+    # con il resto, ma non sotto gli 8.5pt, sotto i quali smette di leggersi
+    bio_pt, bio_step = max(8.5, 9.5 * scale), max(13.5, 15 * scale)
+    righe_blurb = wrap_lines(blurb, width_in, blurb_pt)
+    righe_bio = wrap_lines(bio, width_in, bio_pt)
+    fondo = (top + 14 + 50
+             + blurb_step * len(righe_blurb) + 40 + 28 + 22
+             + bio_step * (len(righe_bio) - 1)
+             + bio_pt * 0.25 / 72 * 100)
+    return righe_blurb, righe_bio, blurb_pt, blurb_step, bio_pt, bio_step, fondo
+
+
+def back_panel_svg(cfg, blurb, x0, width_units, units_per_in, height_units, numero):
+    """Quarta di copertina, dentro l'area sicura di KDP.
+
+    Il testo sta a BACK_MARGIN dai due tagli e finisce sopra la fascia del
+    codice a barre. Quando il blurb e' lungo il corpo si riduce quanto basta a
+    farlo rientrare, invece di proseguire oltre il bordo: prima di questo
+    controllo la biografia del vol. 21 usciva dal foglio e nessuno se ne era
+    accorto, perche' un PDF di copertina si guarda al centro, non ai margini."""
+    bleed_u = BLEED * units_per_in
+    margin_u = BACK_MARGIN * units_per_in
+    left = x0 + bleed_u + margin_u
+    right = x0 + width_units - margin_u
+    width_in = (right - left) / units_per_in
+    top = BACK_TOP * units_per_in
+    limite = height_units - bleed_u - BARCODE_RESERVE * units_per_in
+
+    scale = 1.0
+    while True:
+        misure = back_fits(blurb, cfg["bio"], width_in, top, limite, scale)
+        if misure[6] <= limite or scale <= BACK_MIN_SCALE:
+            break
+        scale = round(scale - 0.02, 2)
+    righe_blurb, righe_bio, blurb_pt, blurb_step, bio_pt, bio_step, fondo = misure
+    if fondo > limite:
+        # ValueError e non SystemExit: il rebuild --tutti deve saltare il volume
+        # difettoso e proseguire, come fa con ogni altro errore di generazione
+        raise ValueError(
+            f"vol. {numero}: la quarta non ci sta nemmeno a corpo {blurb_pt:.1f}pt "
+            f"(sfora di {(fondo - limite) / units_per_in:.2f}in). Accorciare il blurb "
+            f"di circa {int((fondo - limite) / blurb_step) * int(width_in * 72 / (blurb_pt * 0.52))} caratteri."
+        )
+
     lines = []
-    y = 110
-    lines.append(f'<text x="{x0+40}" y="{y}" font-family="Georgia, serif" font-size="11" letter-spacing="4" fill="{cfg["back_label"]}">{cfg["label"]}</text>')
+    y = top
+    lines.append(f'<text x="{left}" y="{y}" font-family="Georgia, serif" font-size="11" letter-spacing="4" fill="{cfg["back_label"]}">{cfg["label"]}</text>')
     y += 14
-    lines.append(f'<line x1="{x0+40}" y1="{y}" x2="{x0+width_units-40}" y2="{y}" stroke="{cfg["back_rule"]}" stroke-width="0.5"/>')
+    lines.append(f'<line x1="{left}" y1="{y}" x2="{right}" y2="{y}" stroke="{cfg["back_rule"]}" stroke-width="0.5"/>')
     y += 50
-    width_in = (width_units - 80) / units_per_in
-    for ln in wrap_lines(blurb, width_in, 13):
-        lines.append(f'<text x="{x0+40}" y="{y}" font-family="Georgia, serif" font-size="13" fill="{cfg["back_text"]}">{ln}</text>')
-        y += 21
+    for ln in righe_blurb:
+        lines.append(f'<text x="{left}" y="{y:.1f}" font-family="Georgia, serif" font-size="{blurb_pt:.2f}" fill="{cfg["back_text"]}">{ln}</text>')
+        y += blurb_step
     y += 40
-    lines.append(f'<line x1="{x0+40}" y1="{y}" x2="{x0+width_units-40}" y2="{y}" stroke="{cfg["back_rule"]}" stroke-width="0.5"/>')
+    lines.append(f'<line x1="{left}" y1="{y:.1f}" x2="{right}" y2="{y:.1f}" stroke="{cfg["back_rule"]}" stroke-width="0.5"/>')
     y += 28
-    lines.append(f'<text x="{x0+40}" y="{y}" font-family="Georgia, serif" font-size="9" letter-spacing="2" fill="{cfg["back_label"]}">GIOVANNI MARTINI</text>')
+    lines.append(f'<text x="{left}" y="{y:.1f}" font-family="Georgia, serif" font-size="9" letter-spacing="2" fill="{cfg["back_label"]}">GIOVANNI MARTINI</text>')
     y += 22
-    for ln in wrap_lines(cfg["bio"], width_in, 9.5):
-        lines.append(f'<text x="{x0+40}" y="{y}" font-family="Georgia, serif" font-size="9.5" fill="{cfg["back_bio"]}">{ln}</text>')
-        y += 15
-    return "\n".join(lines)
+    for ln in righe_bio:
+        lines.append(f'<text x="{left}" y="{y:.1f}" font-family="Georgia, serif" font-size="{bio_pt:.2f}" fill="{cfg["back_bio"]}">{ln}</text>')
+        y += bio_step
+    return "\n".join(lines), scale
 
 
 def spine_svg(cfg, title, x0, width_units, height_units, color):
@@ -506,7 +565,8 @@ def build_cover_svg(cfg, book, parsed, page_count, blurb, color):
 
     title_lines = split_title(parsed["title"])
     front_inner = front_panel_svg(cfg, title_lines, parsed["subtitle"], color)
-    back_inner = back_panel_svg(cfg, sanitize_for_svg(blurb), back_x0, bleed_u + trim_w_u, units_per_in)
+    back_inner, back_scale = back_panel_svg(cfg, sanitize_for_svg(blurb), back_x0,
+                                            bleed_u + trim_w_u, units_per_in, H, book["n"])
     spine_inner = spine_svg(cfg, parsed["title"], spine_x0, spine_u, H, color)
 
     s0, s1, s2 = cfg["stops"]
@@ -526,11 +586,11 @@ def build_cover_svg(cfg, book, parsed, page_count, blurb, color):
     {front_inner}
   </g>
 </svg>"""
-    return svg, spine_in
+    return svg, spine_in, back_scale
 
 
 def build_cover_pdf(cfg, book, parsed, page_count, blurb, color):
-    svg, spine_in = build_cover_svg(cfg, book, parsed, page_count, blurb, color)
+    svg, spine_in, back_scale = build_cover_svg(cfg, book, parsed, page_count, blurb, color)
     slug = slugify(parsed["title"])
     os.makedirs(COPERTINE_DIR, exist_ok=True)
     svg_path = os.path.join(COPERTINE_DIR, f"copertina-stampa-{cfg['prefix']}{slug}.svg")
@@ -541,7 +601,7 @@ def build_cover_pdf(cfg, book, parsed, page_count, blurb, color):
     os.makedirs(pdf_dir, exist_ok=True)
     pdf_path = os.path.join(pdf_dir, "copertina-stampa.pdf")
     cairosvg.svg2pdf(url=svg_path, write_to=pdf_path)
-    return pdf_path, spine_in
+    return pdf_path, spine_in, back_scale
 
 
 # ---------------------------------------------------------------------------
@@ -571,8 +631,9 @@ def process(cfg, book, registry):
         print(f"  ✓ quarta di copertina abbozzata dal Prologo (rivedere in {cfg['registry']})")
 
     color = book.get("color", "#7878C8")
-    cover_path, spine_in = build_cover_pdf(cfg, book, parsed, page_count, blurb, color)
-    print(f"  ✓ copertina: dorso {spine_in:.3f}in")
+    cover_path, spine_in, back_scale = build_cover_pdf(cfg, book, parsed, page_count, blurb, color)
+    ridotto = "" if back_scale == 1.0 else f", quarta a corpo {13 * back_scale:.1f}pt (blurb lungo)"
+    print(f"  ✓ copertina: dorso {spine_in:.3f}in{ridotto}")
 
     full_title = f"{parsed['title']} — {parsed['subtitle']}"
     set_pdf_metadata(interior_path, full_title, parsed["subtitle"], parsed["year"])

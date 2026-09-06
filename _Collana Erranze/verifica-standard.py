@@ -68,6 +68,8 @@ RE_NOTA_A_PIE = re.compile(r"^\s*(\*{0,2}(Fonti|Fonte|Bibliografia|Note|Riferime
 RE_RIGA_ORIZZONTALE = re.compile(r"^\s*([-*_])\s*(\1\s*){2,}$")
 RE_DOPPIO_PRIMO = re.compile(r"\d'\d+\"")   # 4'33": secondi, non virgolette
 SOGLIA_CITAZIONE = 9                        # parole oltre cui un passo e' una citazione
+SOGLIA_RIGA_PROSA = 60   # oltre questa lunghezza una riga non e' un verso ma prosa spezzata
+RE_NON_PROSA = re.compile(r"^(#|-|\*|\||---|\d+[.)]\s)")   # titoli, elenchi puntati e numerati, tabelle
 
 
 RE_FINE_NUMERO = re.compile(r"(\d|\b[IVXLCDM]+)$")
@@ -524,6 +526,45 @@ def controlla_tipografia(r, cfg, righe, intestazioni):
                  [f"riga {n}" for n in ricce])
 
 
+def controlla_ac_capo(r, cfg, righe, intestazioni):
+    """Un paragrafo per riga.
+
+    La conversione in epub e in pdf usa l'estensione markdown nl2br, che serve a
+    tenere una voce di bibliografia per riga e i versi a capo singolo. Ma vale per
+    tutto il file: ogni a capo dentro un paragrafo diventa un'interruzione di riga
+    vera, e il testo esce spezzato dove e' spezzato il sorgente, con righe orfane
+    di poche parole e decine di pagine in piu'.
+
+    Il corpo va quindi scritto con un paragrafo per riga, senza a capo interni.
+    Fuori dal corpo il controllo non si applica: nel Sommario, nella bibliografia
+    e nelle sezioni automatiche l'a capo per riga e' proprio quello che serve.
+    """
+    i_bib, _ = blocco_sezione(righe, intestazioni, cfg["biblio"])
+    limite = i_bib or len(righe)
+
+    spezzate = []
+    for i in range(limite - 1):
+        riga, succ = righe[i].strip(), righe[i + 1].strip()
+        if not riga or not succ:
+            continue
+        if RE_NON_PROSA.match(riga) or RE_NON_PROSA.match(succ):
+            continue
+        # due righe di prosa consecutive: con nl2br diventano due righe stampate
+        if riga.startswith(">") != succ.startswith(">"):
+            continue
+        # i versi citati vanno a capo singolo di proposito, e sono righe brevi:
+        # l'a capo da segnalare e' quello della prosa mandata a capo a giustezza fissa
+        if len(riga) < SOGLIA_RIGA_PROSA:
+            continue
+        spezzate.append(f"riga {i + 1}: …{riga[-58:]}")
+
+    if spezzate:
+        r.errore("a capo",
+                 f"{len(spezzate)} paragrafi spezzati su piu' righe "
+                 f"(con nl2br ogni a capo diventa un'interruzione: un paragrafo per riga)",
+                 spezzate)
+
+
 # --- orchestrazione -----------------------------------------------------
 
 def verifica(cfg, book, books):
@@ -545,6 +586,7 @@ def verifica(cfg, book, books):
     controlla_bibliografia(r, cfg, righe, intestazioni)
     controlla_automatiche(r, cfg, book, righe, intestazioni, books)
     controlla_tipografia(r, cfg, righe, intestazioni)
+    controlla_ac_capo(r, cfg, righe, intestazioni)
     controlla_file_collegati(r, cfg, book)
     return r
 

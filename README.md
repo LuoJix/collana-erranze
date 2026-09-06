@@ -29,6 +29,7 @@ rimpaginarlo o tradurlo.
 - **18. Persone e Personaggi — Autenticità e Falsificazione dell'Io** — [ebook](https://zenodo.org/record/22010694)
 - **19. Divi e Divismo — I Quindici Minuti di Celebrità** — [ebook](https://zenodo.org/record/22010696)
 - **20. Le Forme del Tempo — Lineare, circolare, a loop** — [ebook](https://zenodo.org/record/22010698)
+- **21. Chi Chiami Fratello — L'unità di base e chi la misura** — [ebook](https://zenodo.org/record/22283708)
 
 ## Errancies (edizione inglese)
 
@@ -62,4 +63,4 @@ condividendo allo stesso modo. Vedi `LICENSE`.
 
 Gli script sono sotto licenza MIT. Vedi `LICENSE-CODE`.
 
-*Aggiornato al 22 agosto 2026.*
+*Aggiornato al 6 settembre 2026.*

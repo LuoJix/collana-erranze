@@ -136,33 +136,43 @@
   ],
   "planned": [
     {
-      "title": "The Commonplace — Travel in the Age of Its Reproducibility",
-      "folder": "The Commonplace — Travel in the Age of Its Reproducibility",
-      "file": "The Commonplace",
-      "color": "#C4A852",
+      "title": "Divismo — Why the Public Makes the Star",
+      "folder": "Divismo — Why the Public Makes the Star",
+      "file": "Divismo",
+      "color": "#8891A0",
       "original": {
-        "title": "Il Luogo Comune — Viaggiare nell'Epoca della Sua Riproducibilità",
-        "n": 4
+        "title": "Divi e Divismo — I Quindici Minuti di Celebrità",
+        "n": 19
       }
     },
     {
-      "title": "Straying — The Myth and Space of the Labyrinth",
-      "folder": "Straying — The Myth and Space of the Labyrinth",
-      "file": "Straying",
+      "title": "The Future Doesn't Vote — Nostalgia, Demography, and Italy's Retreat from Innovation",
+      "folder": "The Future Doesn't Vote — Nostalgia, Demography, and Italy's Retreat from Innovation",
+      "file": "The Future Doesn't Vote",
+      "color": "#7C8580",
+      "original": {
+        "title": "Il Futuro Non Vota — Nostalgia, demografia e la rinuncia italiana all'innovazione",
+        "n": 17
+      }
+    },
+    {
+      "title": "Who Speaks When You Say “I” — The Self as Performance and as Choice",
+      "folder": "Who Speaks When You Say I — The Self as Performance and as Choice",
+      "file": "Who Speaks When You Say I",
+      "color": "#3D9898",
+      "original": {
+        "title": "Persone e Personaggi — Autenticità e Falsificazione dell'Io",
+        "n": 18
+      }
+    },
+    {
+      "title": "Errare — On Wandering and Losing the Way",
+      "folder": "Errare — On Wandering and Losing the Way",
+      "file": "Errare",
       "color": "#7A9A6A",
       "original": {
         "title": "Errare — Mito e Spazio del Labirinto",
         "n": 3
-      }
-    },
-    {
-      "title": "Causality and Synchronicity — An Inquiry Without a Thesis",
-      "folder": "Causality and Synchronicity — An Inquiry Without a Thesis",
-      "file": "Causality and Synchronicity",
-      "color": "#7878C8",
-      "original": {
-        "title": "Causalità e Sincronicità — Una problematizzazione senza tesi",
-        "n": 5
       }
     }
   ]
