@@ -753,6 +753,43 @@
       },
       "asin": null,
       "pages": 63
+    },
+    {
+      "n": 22,
+      "title": "Dare Ascolto — Chi sta davanti",
+      "folder": "Completati/Dare Ascolto — Chi sta davanti",
+      "file": "Dare Ascolto",
+      "color": "#A0522D",
+      "price_ebook_eur": null,
+      "price_paperback_eur": 10.9,
+      "blurb": "Obbedire viene dal latino ob-audire, ascoltare chi sta davanti, e in italiano dare ascolto significa ancora tutte e due le cose. Questo libro non tratta l'ascolto come una ricezione neutra ma come una posizione, con due coordinate: dove sta l'altro, e chi comanda. Quasi sempre chi ascolta si mette sotto: la Regola di Benedetto comincia con un imperativo, «ascolta», e Odisseo, per sentire le Sirene, si fa legare all'albero. Poi la posizione si rovescia: il medico ausculta un corpo senza chiedergli niente, il confessore ascolta dietro una grata, e chi ascolta e tace sta sopra. Wagner spegne la sala e nasconde l'orchestra nel «golfo mistico»; il fonografo fa sentire i morti, e discende da una macchina costruita con l'orecchio di un morto. Un altoparlante in un dormitorio di Bucarest non si può spegnere, una radiolina in un monastero bulgaro porta la notizia dello sbarco sulla Luna, un'azienda di streaming misura quanta parte di tutto l'ascolto ha deciso lei. Il libro non conclude che si debba ascoltare di più: conclude che ascoltare colloca, sempre, e che mettersi sotto per scelta, davanti a qualcosa che non vuole niente da noi, è una delle poche esperienze che durano.",
+      "keywords": [
+        "ascolto",
+        "obbedienza",
+        "acusmatica",
+        "storia culturale del suono",
+        "radio",
+        "sorveglianza",
+        "Barthes",
+        "Calvino",
+        "Nancy"
+      ],
+      "zlib_category": "Social sciences - Media and communication",
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Media Studies",
+        "MUSIC / History & Criticism",
+        "HISTORY / Social History"
+      ],
+      "asin": null,
+      "pages": 95,
+      "zenodo": {
+        "deposit_id": 22692243,
+        "url": "https://zenodo.org/record/22692243",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.22692243",
+        "doi": "10.5281/zenodo.22692243",
+        "concept_doi": "10.5281/zenodo.22692242"
+      }
     }
   ]
 }

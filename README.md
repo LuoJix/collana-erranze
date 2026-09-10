@@ -30,6 +30,7 @@ rimpaginarlo o tradurlo.
 - **19. Divi e Divismo — I Quindici Minuti di Celebrità** — [ebook](https://zenodo.org/record/22010696)
 - **20. Le Forme del Tempo — Lineare, circolare, a loop** — [ebook](https://zenodo.org/record/22010698)
 - **21. Chi Chiami Fratello — L'unità di base e chi la misura** — [ebook](https://zenodo.org/record/22283708)
+- **22. Dare Ascolto — Chi sta davanti** — [ebook](https://zenodo.org/record/22692243)
 
 ## Errancies (edizione inglese)
 
@@ -63,4 +64,4 @@ condividendo allo stesso modo. Vedi `LICENSE`.
 
 Gli script sono sotto licenza MIT. Vedi `LICENSE-CODE`.
 
-*Aggiornato al 6 settembre 2026.*
+*Aggiornato al 10 settembre 2026.*
