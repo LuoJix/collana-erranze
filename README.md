@@ -31,6 +31,7 @@ rimpaginarlo o tradurlo.
 - **20. Le Forme del Tempo — Lineare, circolare, a loop** — [ebook](https://zenodo.org/record/22010698)
 - **21. Chi Chiami Fratello — L'unità di base e chi la misura** — [ebook](https://zenodo.org/record/22283708)
 - **22. Dare Ascolto — Chi sta davanti** — [ebook](https://zenodo.org/record/22692243)
+- **23. Accordarsi senza Capirsi — Idee e sentimenti fra due persone** — [ebook](https://zenodo.org/record/22801453)
 
 ## Errancies (edizione inglese)
 
@@ -64,4 +65,4 @@ condividendo allo stesso modo. Vedi `LICENSE`.
 
 Gli script sono sotto licenza MIT. Vedi `LICENSE-CODE`.
 
-*Aggiornato al 10 settembre 2026.*
+*Aggiornato al 16 settembre 2026.*

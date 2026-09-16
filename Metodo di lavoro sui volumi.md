@@ -12,7 +12,7 @@ Scaletta di Parti e sottosezioni, arco tematico che le lega, collocazione degli 
 
 ## 3. Ricerca bibliografica — Sonnet
 
-Prima Temp/ e Calibre Library, poi il web solo se la fonte non è disponibile altrove. Conversione degli ebook con `ebook-convert`, lettura diretta del testo convertito, citazioni verificate ed estratte sul testo primario. Un file di note per Parte in Bozze/Note/. Compito meccanico e ripetitivo.
+Prima Temp/, dove l'autore deposita i testi già convertiti; la Calibre Library solo su sua approvazione, caso per caso, e in quel caso conversione degli ebook con `ebook-convert`; il web per ultimo, solo se la fonte non è disponibile altrove. Lettura diretta del testo, citazioni verificate ed estratte sul testo primario. Un file di note per Parte in Bozze/Note/. Compito meccanico e ripetitivo.
 
 ## 4. Stesura — Opus
 
