@@ -817,14 +817,18 @@
         "PSYCHOLOGY / Emotions",
         "LANGUAGE ARTS & DISCIPLINES / Communication Studies"
       ],
+      "asin": "B0HK23LD37",
       "pages": 85,
       "zenodo": {
-        "deposit_id": 22801453,
-        "url": "https://zenodo.org/record/22801453",
+        "deposit_id": 22812559,
+        "url": "https://zenodo.org/record/22812559",
         "pubblicato": true,
-        "doi_riservato": "10.5281/zenodo.22801453",
-        "doi": "10.5281/zenodo.22801453",
-        "concept_doi": "10.5281/zenodo.22801452"
+        "doi": "10.5281/zenodo.22812559",
+        "concept_doi": "10.5281/zenodo.22801452",
+        "versione": "1.1",
+        "precedenti": [
+          "10.5281/zenodo.22801453"
+        ]
       }
     }
   ]
