@@ -32,6 +32,7 @@ rimpaginarlo o tradurlo.
 - **21. Chi Chiami Fratello — L'unità di base e chi la misura** — [ebook](https://zenodo.org/record/22283708)
 - **22. Dare Ascolto — Chi sta davanti** — [ebook](https://zenodo.org/record/22692243)
 - **23. Accordarsi senza Capirsi — Idee e sentimenti fra due persone** — [ebook](https://zenodo.org/record/22812559)
+- **24. Tenere Fuori, Lasciar Passare — Non c'è oltre senza confine** — [ebook](https://zenodo.org/record/22983081)
 
 ## Errancies (edizione inglese)
 
@@ -65,4 +66,4 @@ condividendo allo stesso modo. Vedi `LICENSE`.
 
 Gli script sono sotto licenza MIT. Vedi `LICENSE-CODE`.
 
-*Aggiornato al 17 settembre 2026.*
+*Aggiornato al 26 settembre 2026.*

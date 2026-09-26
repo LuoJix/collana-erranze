@@ -67,6 +67,22 @@ per un'altra strada: là la inserisce `aggiorna-collana.py` dalle costanti
 script**, altrimenti cartaceo ed ebook dello stesso volume dichiarano cose
 diverse.
 
+## Le immagini nel corpo
+
+Fino al vol. 23 nessun volume conteneva immagini. Il vol. 24 ne ha una sola, la riproduzione di un documento, e da lì vengono queste regole.
+
+**Una sola immagine per volume**, salvo decisione contraria: due immagini cambiano il registro del libro e lo avvicinano all'album.
+
+**Il file sta nella cartella del volume**, accanto al `.md`, e si richiama con un percorso relativo (`![](nome.jpg)`): WeasyPrint risolve i percorsi rispetto a quella cartella, e calibre incorpora il file nell'epub senza bisogno di opzioni.
+
+**Risoluzione**: almeno 300 dpi alla dimensione di stampa. Su una gabbia di 6×9 pollici significa un lato lungo di circa 1.500-1.800 pixel.
+
+**In bianco e nero.** L'interno si stampa in scala di grigi, quindi l'immagine va convertita prima, per vedere in anticipo il risultato reale.
+
+**La didascalia** è il paragrafo che segue immediatamente l'immagine e va marcato con `{: .didascalia }` quando serve lo stile ridotto; contiene i dati archivistici e nient'altro.
+
+**Il CSS di `genera-stampa.py`** limita l'immagine alla gabbia (`max-width: 100%`), la centra e impedisce che si spezzi fra due pagine.
+
 ## La quarta di copertina, e l'area sicura di KDP
 
 KDP rifiuta le copertine che portano testo a meno di **0,375 pollici (9,5 mm)**

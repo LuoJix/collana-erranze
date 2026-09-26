@@ -293,6 +293,12 @@ h2 {{ font-size: 18pt; font-weight: bold; margin: 0 0 0.8em 0; text-align: left;
 h2.chapter-open {{ page-break-before: right; margin-top: 1.6in; }}
 h3 {{ font-size: 12.5pt; font-style: italic; margin: 1.8em 0 0.6em 0; }}
 blockquote {{ margin: 1em 1.8em; font-style: italic; color: #333; }}
+/* immagini nel corpo: introdotte con il vol. 24, che riproduce un documento.
+   L'immagine non supera mai la gabbia di testo e non si spezza fra due pagine;
+   la didascalia e' il paragrafo in corsivo che la segue. */
+img {{ display: block; max-width: 100%; height: auto; margin: 1.4em auto 0.5em auto; }}
+p.didascalia {{ font-size: 8.5pt; font-style: italic; text-align: center; color: #444; margin: 0 0 1.6em 0; }}
+figure {{ break-inside: avoid; margin: 0; }}
 a {{ color: inherit; text-decoration: none; }}
 
 .front {{ page: front; }}

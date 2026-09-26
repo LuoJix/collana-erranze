@@ -538,6 +538,11 @@ def controlla_ac_capo(r, cfg, righe, intestazioni):
     Il corpo va quindi scritto con un paragrafo per riga, senza a capo interni.
     Fuori dal corpo il controllo non si applica: nel Sommario, nella bibliografia
     e nelle sezioni automatiche l'a capo per riga e' proprio quello che serve.
+
+    Non si applica nemmeno dentro le citazioni in blocco, dove l'a capo e'
+    voluto: i versi, i punti di un elenco citato, un originale seguito dalla
+    traduzione. Prima di questa eccezione la regola dava un falso positivo su
+    ogni citazione distribuita su piu' righe (voll. 23 e 24, set 2026).
     """
     i_bib, _ = blocco_sezione(righe, intestazioni, cfg["biblio"])
     limite = i_bib or len(righe)
@@ -549,8 +554,10 @@ def controlla_ac_capo(r, cfg, righe, intestazioni):
             continue
         if RE_NON_PROSA.match(riga) or RE_NON_PROSA.match(succ):
             continue
-        # due righe di prosa consecutive: con nl2br diventano due righe stampate
-        if riga.startswith(">") != succ.startswith(">"):
+        # le citazioni in blocco vanno a capo di proposito: versi, elenchi di
+        # punti, un originale seguito dalla sua traduzione. Con nl2br l'a capo
+        # e' proprio l'effetto voluto, quindi dentro un blocco non si segnala
+        if riga.startswith(">") or succ.startswith(">"):
             continue
         # i versi citati vanno a capo singolo di proposito, e sono righe brevi:
         # l'a capo da segnalare e' quello della prosa mandata a capo a giustezza fissa

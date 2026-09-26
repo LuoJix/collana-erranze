@@ -54,6 +54,18 @@ LANGS = {
         ],
         "negazione_re": r"^(Non|Né|Nessun[ao]?)\b",
         "chiusura_re": r":\s+[^.!?]*\bnon\b[^.!?]*\bma\b",
+        "vaghi": [
+            r"\b(?:molti|alcuni|diversi|numerosi|parecchi|non pochi)\s+"
+            r"(?:studiosi|critici|autori|commentatori|storici|ricercatori|interpreti|lettori)\b",
+            r"\bla maggior parte (?:degli|dei) (?:studiosi|critici|storici|autori)\b",
+            r"\bsecondo (?:molti|alcuni|i piu')\b",
+            r"\be' (?:spesso|di solito|comunemente|generalmente) "
+            r"(?:letto|letta|interpretato|interpretata|considerato|considerata|ritenuto|ritenuta|visto|vista)\b",
+            r"\bsi (?:dice|ritiene|sostiene|legge) (?:spesso|di solito|comunemente)\b",
+            r"\bchiunque abbia\b",
+            r"\bcome e' noto\b",
+            r"\be' noto che\b",
+        ],
     },
     "en": {
         "registry": "series-en.json",
@@ -69,6 +81,16 @@ LANGS = {
         ],
         "negazione_re": r"^(Not|Neither|No)\b",
         "chiusura_re": r":\s+[^.!?]*\bnot\b[^.!?]*\bbut\b",
+        "vaghi": [
+            r"\b(?:many|some|several|numerous)\s+"
+            r"(?:scholars|critics|commentators|historians|researchers|readers)\b",
+            r"\bmost (?:scholars|critics|historians|readers)\b",
+            r"\bis (?:often|usually|commonly|generally) "
+            r"(?:read|interpreted|seen|taken|considered|held)\b",
+            r"\bit is (?:often|widely) (?:said|held|believed|assumed)\b",
+            r"\banyone who has\b",
+            r"\bas is well known\b",
+        ],
         "translationese": True,   # vedi la checklist in English/Errancies.md
     },
 }
@@ -419,7 +441,26 @@ def analizza(cfg, book):
         a.nota("frasi lunghe", f"frase piu' lunga: {lunghissime[0][2]} parole",
                [f"riga {r} ({n} parole): {f[:110]}…" for r, f, n in lunghissime if n >= 55])
 
-    # 6. checklist del translationese, solo sull'edizione inglese
+    # 6. riferimenti vaghi: «molti studiosi», «e' spesso letto», «chiunque abbia».
+    # Vengono dalla prova di verifica della costruzione (Diagnosi/verifica-
+    # costruzione.md): danno a un'affermazione l'aria di una fonte senza nominarne
+    # nessuna. Qui si contano, perche' il rilievo e' meccanico; le due domande che
+    # richiedono giudizio (contraddizioni interne, fonti senza contraddittorio)
+    # restano alla lettura della fase 5.
+    vaghi = []
+    for riga, testo in paragrafi:
+        piano = norm_accenti(pulisci(testo).lower())
+        for espressione in cfg.get("vaghi", []):
+            for m in re.finditer(espressione, piano):
+                inizio = max(0, m.start() - 30)
+                vaghi.append((riga, piano[inizio:m.end() + 40]))
+    a.stat["vaghi"] = len(vaghi)
+    if vaghi:
+        a.nota("riferimenti vaghi",
+               f"{len(vaghi)} riferimenti a un'autorita' che non viene nominata",
+               [f"riga {r}: …{t}…" for r, t in vaghi])
+
+    # 7. checklist del translationese, solo sull'edizione inglese
     if cfg.get("translationese"):
         analizza_translationese(a, paragrafi, frasi)
 
@@ -449,14 +490,14 @@ def stampa(analisi, cfg, riferimento, dettaglio, out):
     p("Corpo narrativo soltanto: testata, Sommario, Testi di riferimento e sezioni")
     p("automatiche sono esclusi dal conteggio.")
     p()
-    p("| Vol. | Titolo | Parole | Frasi | Parole/frase | Dev.st | ≥45 par. | ≤8 par. | Parole/parag. | Neg. iniz. | Connett. | Chius. mecc. |")
-    p("|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|")
+    p("| Vol. | Titolo | Parole | Frasi | Parole/frase | Dev.st | ≥45 par. | ≤8 par. | Parole/parag. | Neg. iniz. | Connett. | Chius. mecc. | Rif. vaghi |")
+    p("|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|")
     for a in validi:
         s = a.stat
         p(f"| {a.book['n']} | {a.book['title'].split(' — ')[0]} | {s['parole']} | {s['frasi']} | "
           f"{s['media']:.1f} | {s['dev']:.1f} | {s['pct_lunghe']:.0f}% | {s['pct_brevi']:.1f}% | "
           f"{s['parole_par']:.0f} | "
-          f"{s['negazioni']} | {s['connettivi']} | {s['pct_chiusure']:.0f}% |")
+          f"{s['negazioni']} | {s['connettivi']} | {s['pct_chiusure']:.0f}% | {s.get('vaghi', 0)} |")
     p()
 
     def mediana(chiave):

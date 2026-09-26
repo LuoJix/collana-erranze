@@ -17,12 +17,16 @@ prodotto da aggiorna-elenco.py. Questa e' la vetrina rivolta a chi legge.
 Monocroma come le copertine: il campo 'color' del registro non entra qui,
 esattamente come non entra in genera-copertina.py. I volumi si distinguono
 per numero e titolo, non per colore.
+
+Per la collana italiana rigenera anche la pagina 'link in bio' di Instagram,
+con genera-vetrina.py: legge lo stesso registro e cambia negli stessi momenti.
 """
 
 import argparse
 import csv
 import html
 import json
+import subprocess
 import sys
 import unicodedata
 from datetime import date
@@ -473,6 +477,10 @@ var ETICHETTE = {json.dumps(cfg['tema'], ensure_ascii=False)};
           f"  in programma: {len(reg.get('planned') or [])}")
     print(f"  con ASIN: {sum(1 for b in libri if b.get('asin'))}"
           f"  con DOI: {sum(1 for b in libri if b.get('zenodo'))}")
+    if args.lang == "it":
+        sys.stdout.flush()
+        subprocess.run([sys.executable, str(BASE / "genera-vetrina.py")],
+                       check=True)
 
 
 if __name__ == "__main__":

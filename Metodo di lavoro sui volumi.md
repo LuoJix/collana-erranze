@@ -18,9 +18,18 @@ Prima Temp/, dove l'autore deposita i testi già convertiti; la Calibre Library 
 
 Prologo, poi Parte per Parte, poi Epilogo. Sempre scritta a mano nel filo conversazionale principale, mai delegata a un sub-agente: ogni paragrafo deve conoscere tutto ciò che è già stato scritto nel libro. Segue lo standard della collana (niente trattino lungo nel corpo, citazioni fra guillemets, gerarchia dei titoli a due livelli, bibliografia solo in "Testi di riferimento").
 
-## 5. Verifica del tono — Opus
+## 5. Verifica del tono e della costruzione — Opus
 
-A stesura completa, controllo dei tic da scrittura automatica per conteggio di frequenza (frasi fatte ripetute, costrutti a effetto, chiusure troppo simili fra loro), confrontato contro un volume già pubblicato come riferimento di ritmo naturale.
+A stesura completa, due controlli distinti, perché colpiscono strati diversi del testo.
+
+**Il tono**, per conteggio di frequenza con `analizza-ritmo.py`: tic da scrittura automatica (frasi fatte ripetute, costrutti a effetto, chiusure troppo simili fra loro), confrontati contro un volume già pubblicato come riferimento di ritmo naturale. Lo stesso script conta i **riferimenti vaghi**, cioè le formule che danno a un'affermazione l'aria di una fonte senza nominarne nessuna: «molti studiosi», «è spesso letto», «chiunque abbia».
+
+**La costruzione**, con una lettura che ha due sole domande, perché la ripulitura della superficie non tocca il modo in cui il libro è montato:
+
+- **contraddizioni interne ed esempi contrari**: passi che dicono il rovescio di altri passi, ed esempi che illustrano il contrario di ciò che devono illustrare;
+- **fonti senza contraddittorio**: autori solo esposti e confermati, obiezioni nominate e subito neutralizzate.
+
+Prima della lettura vanno date **le decisioni già prese sul volume**, altrimenti il controllo segnala come difetti le scelte dell'autore. Da dove vengono le due domande, che cosa hanno trovato alla prova sul vol. 23 e che cosa è stato scartato sta in `_Collana Erranze/Diagnosi/verifica-costruzione.md`.
 
 ## 6. Espansioni successive — Sonnet + Opus in ciclo
 
