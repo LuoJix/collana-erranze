@@ -33,6 +33,7 @@ rimpaginarlo o tradurlo.
 - **22. Dare Ascolto — Chi sta davanti** — [ebook](https://zenodo.org/record/22692243)
 - **23. Accordarsi senza Capirsi — Idee e sentimenti fra due persone** — [ebook](https://zenodo.org/record/22812559)
 - **24. Tenere Fuori, Lasciar Passare — Non c'è oltre senza confine** — [ebook](https://zenodo.org/record/22983081)
+- **25. Merita un Cenno — Una misura che nessuno aveva chiesto** — [ebook](https://zenodo.org/record/23121650)
 
 ## Errancies (edizione inglese)
 
@@ -66,4 +67,4 @@ condividendo allo stesso modo. Vedi `LICENSE`.
 
 Gli script sono sotto licenza MIT. Vedi `LICENSE-CODE`.
 
-*Aggiornato al 26 settembre 2026.*
+*Aggiornato al 3 ottobre 2026.*

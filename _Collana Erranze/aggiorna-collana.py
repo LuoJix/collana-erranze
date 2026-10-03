@@ -248,7 +248,12 @@ def build_epub(cfg, lang, book, md_path):
             # da un solo a capo, che senza questa estensione viene fuso in un
             # unico paragrafo. Tenere allineato a genera-stampa.py.
             "--markdown-extensions", "footnotes,tables,toc,nl2br",
-        ],
+        ]
+        # CSS in piu' per un volume solo, dal campo epub_extra_css del registro.
+        # Nato per il vol. 25, la cui foto (500 px) senza width:100% compare
+        # piccola sullo schermo; non va reso generale, perche' cambierebbe anche
+        # l'immagine del vol. 24.
+        + (["--extra-css", book["epub_extra_css"]] if book.get("epub_extra_css") else []),
         capture_output=True,
         text=True,
     )
