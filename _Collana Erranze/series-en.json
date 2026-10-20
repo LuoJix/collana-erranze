@@ -173,6 +173,40 @@
         "doi": "10.5281/zenodo.23503467",
         "concept_doi": "10.5281/zenodo.23503466"
       }
+    },
+    {
+      "n": 5,
+      "title": "Worth a Mention — Measuring Health Inequality in an Italian Province, 1983–2026",
+      "folder": "Worth a Mention — Measuring Health Inequality in an Italian Province, 1983–2026",
+      "file": "Worth a Mention",
+      "color": "#5A6F7E",
+      "original": {
+        "title": "Merita un Cenno — Una misura che nessuno aveva chiesto",
+        "n": 25
+      },
+      "epub_extra_css": "img { width: 100%; height: auto; }",
+      "blurb": "In 1983, at the Health Department of the Province of Trento, in the Italian Alps, a senior official stops in the doorway of a civil servant bent over a computer terminal and asks him, in dialect: \"Cossa fat, zughet?\" — what's this, then, playing? The civil servant is the author, and what he is looking at are the hospital records of an entire province. So begins the story of a measure. Between 2002 and 2007 his unit tries to see what health data usually hide: that even on a \"happy island\", rich and well run, people with less schooling fall ill more often and die sooner. A working group set up by resolution and dissolved after a year, an epidemiologist working in London, a clear result: 83 deaths for every 100 expected in the best-educated areas, 127 in the least. The system is published, acknowledged by the minister, and never updated. In the same years England sets itself a target for reducing health inequalities, and largely meets it; Trentino never sets one. In 2008 an official document gives the measure a single line, and it is from that line that the book takes its title. From a WHO project of 1995 to the journal Punto Omega, from lifestyle drift to a health law of 2010, the book follows what happens to a measure nobody had asked for — and why a project, to take off, needs conditions, or perhaps coincidences.",
+      "keywords": [
+        "public health",
+        "health inequalities",
+        "health equity",
+        "Trentino",
+        "health promotion",
+        "health planning",
+        "social determinants of health",
+        "epidemiology",
+        "WHO"
+      ],
+      "kdp_categories": [
+        "MEDICAL / Public Health",
+        "MEDICAL / Health Policy",
+        "POLITICAL SCIENCE / Public Policy / Social Services & Welfare"
+      ],
+      "zlib_category": "Medicine - Public health",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "price_paperback_usd": 8.99,
+      "pages": 77
     }
   ],
   "planned": [
