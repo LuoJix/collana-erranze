@@ -206,7 +206,15 @@
       "price_ebook_eur": 2.99,
       "price_paperback_eur": 8.9,
       "price_paperback_usd": 8.99,
-      "pages": 77
+      "pages": 77,
+      "zenodo": {
+        "deposit_id": 23510946,
+        "url": "https://zenodo.org/record/23510946",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.23510946",
+        "doi": "10.5281/zenodo.23510946",
+        "concept_doi": "10.5281/zenodo.23510945"
+      }
     }
   ],
   "planned": [

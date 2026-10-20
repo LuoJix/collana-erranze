@@ -43,7 +43,7 @@ Riscritture d'autore, non traduzioni di servizio.
 - **2. Nature Does Not Exist — A Cultural History of the Environment** — [ebook](https://zenodo.org/record/22011138)
 - **3. The Threshold of Care — Fate, Blame, Place, Class** — [ebook](https://zenodo.org/record/22011140)
 - **4. Keeping Out, Letting Through — Membrane, Door, Line, Wall** — [ebook](https://zenodo.org/record/23503467)
-- **5. Worth a Mention — Measuring Health Inequality in an Italian Province, 1983–2026**
+- **5. Worth a Mention — Measuring Health Inequality in an Italian Province, 1983–2026** — [ebook](https://zenodo.org/record/23510946)
 
 ## Com'e' fatto
 
