@@ -253,6 +253,14 @@ def build_body_html(body_md):
     md = markdown.Markdown(extensions=["extra", "toc", "nl2br"], extension_configs={"toc": {"permalink": False}})
     html_body = md.convert(body_md)
     html_body = re.sub(r'<h2 id="([^"]+)">', r'<h2 id="\1" class="chapter-open">', html_body)
+    # Immagine + paragrafo in corsivo che la segue = figura con didascalia.
+    # Senza questo passaggio le regole CSS di img/figure/didascalia restano
+    # inerti: la didascalia esce in corpo pieno e puo' spezzarsi sulla pagina
+    # dopo (successo con l'edizione inglese del vol. 24, ottobre 2026).
+    html_body = re.sub(
+        r'<p>(<img [^>]+>)</p>\s*<p><em>(.*?)</em></p>',
+        r'<figure>\1<p class="didascalia">\2</p></figure>',
+        html_body, flags=re.DOTALL)
 
     toc_rows = []
     for tok in md.toc_tokens:
@@ -296,7 +304,7 @@ blockquote {{ margin: 1em 1.8em; font-style: italic; color: #333; }}
 /* immagini nel corpo: introdotte con il vol. 24, che riproduce un documento.
    L'immagine non supera mai la gabbia di testo e non si spezza fra due pagine;
    la didascalia e' il paragrafo in corsivo che la segue. */
-img {{ display: block; max-width: 100%; height: auto; margin: 1.4em auto 0.5em auto; }}
+img {{ display: block; max-width: 100%; max-height: 5.8in; height: auto; margin: 1.4em auto 0.5em auto; }}
 p.didascalia {{ font-size: 8.5pt; font-style: italic; text-align: center; color: #444; margin: 0 0 1.6em 0; }}
 figure {{ break-inside: avoid; margin: 0; }}
 a {{ color: inherit; text-decoration: none; }}

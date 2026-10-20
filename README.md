@@ -42,6 +42,7 @@ Riscritture d'autore, non traduzioni di servizio.
 - **1. The Golem — Clay and Word** — [ebook](https://zenodo.org/record/22011130)
 - **2. Nature Does Not Exist — A Cultural History of the Environment** — [ebook](https://zenodo.org/record/22011138)
 - **3. The Threshold of Care — Fate, Blame, Place, Class** — [ebook](https://zenodo.org/record/22011140)
+- **4. Keeping Out, Letting Through — Membrane, Door, Line, Wall** — [ebook](https://zenodo.org/record/23503467)
 
 ## Com'e' fatto
 
@@ -67,4 +68,4 @@ condividendo allo stesso modo. Vedi `LICENSE`.
 
 Gli script sono sotto licenza MIT. Vedi `LICENSE-CODE`.
 
-*Aggiornato al 3 ottobre 2026.*
+*Aggiornato al 20 ottobre 2026.*

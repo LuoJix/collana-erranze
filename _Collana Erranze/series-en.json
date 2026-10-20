@@ -132,6 +132,47 @@
       },
       "asin": "B0HFCYP3FC",
       "pages": 71
+    },
+    {
+      "n": 4,
+      "title": "Keeping Out, Letting Through — Membrane, Door, Line, Wall",
+      "folder": "Keeping Out, Letting Through — Membrane, Door, Line, Wall",
+      "file": "Keeping Out, Letting Through",
+      "color": "#39445E",
+      "original": {
+        "title": "Tenere Fuori, Lasciar Passare — Non c'è oltre senza confine",
+        "n": 24
+      },
+      "blurb": "On 4 March 1916, in a small town near Salzburg, a woman of thirty-four was issued a passport she needed in order to travel inside her own country. It gave her husband's surname and her husband's job; what was hers was the photograph, the signature and the colour of her hair. She was the author's grandmother, and from those sixteen pages a book rises in scale: from the edge of a cell, which every living thing builds for itself, to the door of a house, which separates and connects in a single gesture; from the line of a state to the wall — a border from which one of the two sides has vanished. Maturana and Varela show that no living thing exists without an edge that chooses, and that closed does not mean isolated. Simmel notices that the wall is silent but the door speaks. Kant grounds the right of visit in the shape of the earth, a globe with no outside. Wendy Brown reads today's walls as the mark of states that no longer control what they claim to. The points system gives each newcomer a score that changes by itself while they wait. The argument is not that borders are good. It is that they are necessary, and that being necessary does not make them just. No border, nothing to cross; the wrong border, no crossing.",
+      "keywords": [
+        "borders",
+        "frontiers",
+        "walls",
+        "migration",
+        "hospitality",
+        "autopoiesis",
+        "Trentino",
+        "passport",
+        "citizenship"
+      ],
+      "kdp_categories": [
+        "POLITICAL SCIENCE / Geopolitics",
+        "SOCIAL SCIENCE / Emigration & Immigration",
+        "PHILOSOPHY / Social"
+      ],
+      "zlib_category": "Social sciences - Politics",
+      "price_ebook_eur": 2.99,
+      "price_paperback_eur": 8.9,
+      "price_paperback_usd": 8.99,
+      "pages": 71,
+      "zenodo": {
+        "deposit_id": 23503467,
+        "url": "https://zenodo.org/record/23503467",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.23503467",
+        "doi": "10.5281/zenodo.23503467",
+        "concept_doi": "10.5281/zenodo.23503466"
+      }
     }
   ],
   "planned": [

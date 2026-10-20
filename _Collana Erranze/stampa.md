@@ -79,9 +79,9 @@ Fino al vol. 23 nessun volume conteneva immagini. Il vol. 24 ne ha una sola, la 
 
 **In bianco e nero.** L'interno si stampa in scala di grigi, quindi l'immagine va convertita prima, per vedere in anticipo il risultato reale.
 
-**La didascalia** è il paragrafo che segue immediatamente l'immagine e va marcato con `{: .didascalia }` quando serve lo stile ridotto; contiene i dati archivistici e nient'altro.
+**La didascalia** è il paragrafo in corsivo (`*...*`) che segue immediatamente l'immagine, e contiene i dati archivistici e nient'altro. Non serve marcarla: dal 20 ottobre 2026 `genera-stampa.py` riconosce la coppia immagine + paragrafo in corsivo e la chiude in un blocco `figure`, con la didascalia in corpo ridotto e centrata. Prima la regola CSS c'era ma nessuno la applicava, e nell'edizione inglese del vol. 24 due righe di didascalia erano finite da sole sulla pagina dopo la foto.
 
-**Il CSS di `genera-stampa.py`** limita l'immagine alla gabbia (`max-width: 100%`), la centra e impedisce che si spezzi fra due pagine.
+**Il CSS di `genera-stampa.py`** limita l'immagine alla gabbia (`max-width: 100%`) e a 5,8 pollici d'altezza, perché foto e didascalia stiano sulla stessa pagina; la centra, e il blocco `figure` impedisce che immagine e didascalia si separino.
 
 ## La quarta di copertina, e l'area sicura di KDP
 
