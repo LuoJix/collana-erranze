@@ -90,15 +90,15 @@ def generate_html(completati, in_sviluppo, errancies):
     data_str = f"{oggi.day} {MESI[oggi.month]} {oggi.year}"
 
     completati_li = "\n".join(
-        f"        <li>{item_html(b['title'])}</li>" for b in completati
+        f"        <li><span class=\"voce\">{item_html(b['title'])}</span></li>" for b in completati
     )
     sviluppo_li = "\n".join(
-        f"        <li>{item_html(folder)}</li>" for folder in in_sviluppo
+        f"        <li><span class=\"voce\">{item_html(folder)}</span></li>" for folder in in_sviluppo
     )
     errancies_block = ""
     if errancies:
         errancies_li = "\n".join(
-            f"        <li>{errancies_item_html(b)}</li>"
+            f"        <li><span class=\"voce\">{errancies_item_html(b)}</span></li>"
             for b in sorted(errancies, key=lambda b: b["n"])
         )
         errancies_block = (
@@ -193,7 +193,13 @@ def generate_html(completati, in_sviluppo, errancies):
   .dash {{
     color: #aaa;
   }}
+  /* Il li e' un flex: senza questo contenitore titolo, sottotitolo e origine
+     diventano tre colonne strette e i titoli inglesi vanno a capo a meta'. */
+  .voce {{
+    flex: 1;
+  }}
   .origine {{
+    display: block;
     color: #999;
     font-size: 8.5pt;
     font-style: italic;

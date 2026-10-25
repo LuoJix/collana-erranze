@@ -930,6 +930,48 @@
         "concept_doi": "10.5281/zenodo.23121649"
       },
       "asin": "B0HLWGJXSJ"
+    },
+    {
+      "n": 26,
+      "title": "Fare la Propria Parte — La firma e il ruolo nel lavoro comune",
+      "folder": "Completati/Fare la Propria Parte — La firma e il ruolo nel lavoro comune",
+      "file": "Fare la Propria Parte",
+      "color": "#7D7A3A",
+      "blurb": "Alla fine degli anni Settanta, in un piccolo appartamento di Trento, tre persone scrivono in una notte la relazione di una ricerca fatta insieme: uno ha prodotto i tabulati, uno insegna come si legge un'indagine, il terzo, l'autore, mette i risultati in prosa. Poi viene la questione dei nomi, e l'autore si batte perché quelli dei funzionari compaiano sulla ricerca. Quindici anni dopo comincia a scrivere, per gli assessori alla sanità e per l'Ordine dei medici, una trentina di testi che non porteranno mai il suo nome, e non gli pesa. Le due cose non si contraddicono: quello che si firma è un lavoro di cui si risponde, quello che si scrive per altri è la parte che un ruolo assegna. Fra le due sta la cooperazione, guardata come una cosa fatta, con regole, sorveglianti, multe e confini. Le carte di regola della Comunità di Pine' e i beni comuni di Elinor Ostrom, Kropotkin in Siberia e i bambini di Tomasello che aiutano meno quando li si premia, i tornei di Axelrod e le trincee della Grande guerra, l'esperimento di Sherif fallito perché i ragazzi capirono chi aveva costruito la gara. E poi Lisia, che scriveva i discorsi per chi andava in tribunale, il funzionario di Weber, lo scrittore fantasma di Kennedy, un saluto letto a Cavalese due giorni dopo la tragedia del Cermis e dimenticato. Fino all'ombra del «noi», la cooperazione che serve a tenere fuori qualcuno, e al dono che non chiede garanzie.",
+      "instagram_line": "Di chi è un lavoro fatto insieme, e chi ne risponde",
+      "keywords": [
+        "cooperazione",
+        "competizione",
+        "beni comuni",
+        "carte di regola",
+        "Pine'",
+        "firma e autore",
+        "scrittura per conto d'altri",
+        "mutuo appoggio",
+        "dono",
+        "Trentino"
+      ],
+      "kdp_categories": [
+        "SOCIAL SCIENCE / Sociology / General",
+        "PHILOSOPHY / Social",
+        "HISTORY / Europe / Italy"
+      ],
+      "zlib_category": "Social sciences - Sociology",
+      "price_ebook_eur": null,
+      "pages": 65,
+      "price_paperback_eur": 8.9,
+      "zenodo": {
+        "deposit_id": 23626438,
+        "url": "https://zenodo.org/record/23626438",
+        "pubblicato": true,
+        "doi": "10.5281/zenodo.23626438",
+        "concept_doi": "10.5281/zenodo.23604187",
+        "versione": "1.1",
+        "precedenti": [
+          "10.5281/zenodo.23604188"
+        ]
+      },
+      "asin": "B0HP8FCVT9"
     }
   ]
 }

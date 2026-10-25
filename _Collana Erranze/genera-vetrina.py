@@ -4,6 +4,7 @@
 Uso:
     python3 genera-vetrina.py            # -> ../Instagram/Vetrina/index.html
     python3 genera-vetrina.py --out <file>
+    python3 genera-vetrina.py --pubblica  # genera e, se diversa, pubblica
 
 E' la pagina pubblicata su https://erranze.netlify.app, l'unico link
 cliccabile del profilo Instagram: l'elenco dei volumi, ognuno con il link al
@@ -17,9 +18,14 @@ che dice di che cosa parla il libro, solo dove aggiunge qualcosa al
 sottotitolo: dove lo ripeterebbe manca, e la voce resta di una riga.
 
 La pagina sta da sola nella sua cartella perche' Netlify carica cartelle
-intere. Lo script genera e non pubblica: per ripubblicare si trascina la
-cartella 'Vetrina' nella scheda Deploys del sito, come spiega
-'Instagram/Come pubblicare su Instagram.md'.
+intere. Senza opzioni lo script genera e non pubblica. Con --pubblica, dal 24
+ottobre 2026, manda la cartella al sito 'erranze' attraverso il servizio web
+di Netlify, con il token salvato nel Portachiavi sotto il nome
+'netlify-erranze': e' lo stesso caricamento che si fa trascinando la cartella
+nella scheda Deploys, e non puo' finire su un sito nuovo come Netlify Drop.
+Prima di partire lo script controlla che il sito trovato risponda proprio a
+erranze.netlify.app; dopo, rilegge la pagina online e la confronta con quella
+appena generata. Tutto in 'Instagram/Come pubblicare su Instagram.md'.
 
 genera-indice.py lo lancia da se' a ogni esecuzione per la collana italiana:
 la pagina si era fermata al vol. 15 proprio perche' andava aggiornata a mano.
@@ -29,8 +35,12 @@ import argparse
 import html
 import json
 import re
+import io
 import ssl
+import subprocess
+import time
 import urllib.request
+import zipfile
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
@@ -41,6 +51,10 @@ INSTAGRAM = BASE.parent / "Instagram"
 OUT = INSTAGRAM / "Vetrina" / "index.html"
 AMAZON = "https://www.amazon.it/dp/"
 SITO = "https://erranze.netlify.app"
+API = "https://api.netlify.com/api/v1"
+# Il nome della voce nel Portachiavi di macOS, dove sta il token personale di
+# Netlify. Non sta in un file perche' il workspace e' su iCloud.
+PORTACHIAVI = "netlify-erranze"
 
 # I colori sono quelli della copertina italiana: fondo #47698A sfumato come in
 # genera-copertina.py, tutto in bianco, e un solo aspetto per tutti invece delle
@@ -286,25 +300,75 @@ def voce(b):
 """
 
 
-def online():
-    """La pagina pubblicata ora, o None se il sito non risponde."""
+def contesto():
     # Il Python di python.org non vede i certificati di macOS e rifiuta ogni
     # sito https. certifi, che arriva con requests, gli da' i suoi.
     try:
         import certifi
-        ctx = ssl.create_default_context(cafile=certifi.where())
+        return ssl.create_default_context(cafile=certifi.where())
     except ImportError:
-        ctx = None
+        return None
+
+
+def online():
+    """La pagina pubblicata ora, o None se il sito non risponde."""
+    # Il parametro cambia a ogni lettura e scavalca la cache di Netlify, che
+    # subito dopo una pubblicazione potrebbe dare ancora la versione vecchia.
+    url = f"{SITO}/?v={int(time.time())}"
     try:
-        with urllib.request.urlopen(SITO + "/", timeout=15, context=ctx) as r:
+        with urllib.request.urlopen(url, timeout=15, context=contesto()) as r:
             return r.read().decode("utf-8")
     except OSError:
         return None
 
 
+def netlify(percorso, dati=None, tipo=None):
+    """Una chiamata al servizio web di Netlify, con il token del Portachiavi."""
+    token = subprocess.run(
+        ["security", "find-generic-password", "-s", PORTACHIAVI, "-w"],
+        capture_output=True, text=True).stdout.strip()
+    if not token:
+        raise SystemExit(f"  manca il token: nel Portachiavi non c'e' la voce "
+                         f"'{PORTACHIAVI}'")
+    req = urllib.request.Request(API + percorso, data=dati,
+                                 method="POST" if dati else "GET")
+    req.add_header("Authorization", f"Bearer {token}")
+    if tipo:
+        req.add_header("Content-Type", tipo)
+    with urllib.request.urlopen(req, timeout=60, context=contesto()) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def pubblica(cartella):
+    """Carica la cartella sul sito erranze e aspetta che sia online."""
+    # Il sito si cerca per nome e si controlla l'indirizzo: se un giorno il
+    # token fosse di un altro account, o il sito cambiasse nome, ci si ferma
+    # invece di pubblicare altrove.
+    siti = [s for s in netlify("/sites?filter=all")
+            if s.get("ssl_url") == SITO or s.get("url") == SITO]
+    if len(siti) != 1:
+        raise SystemExit(f"  nessun sito risponde a {SITO}: non pubblico")
+    sito = siti[0]
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+        for f in sorted(cartella.rglob("*")):
+            if f.is_file() and f.name != ".DS_Store":
+                z.write(f, f.relative_to(cartella).as_posix())
+    deploy = netlify(f"/sites/{sito['id']}/deploys", buf.getvalue(),
+                     "application/zip")
+    for _ in range(30):
+        if deploy.get("state") in ("ready", "error"):
+            break
+        time.sleep(2)
+        deploy = netlify(f"/deploys/{deploy['id']}")
+    return deploy.get("state")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--out")
+    ap.add_argument("--pubblica", action="store_true",
+                    help="se la pagina e' diversa da quella online, pubblicala")
     args = ap.parse_args()
     if args.out:
         out = Path(args.out)
@@ -336,9 +400,20 @@ def main():
         print(f"  non riesco a leggere {SITO}: controllare a mano")
     elif pubblicata == doc:
         print("  uguale a quella online: niente da ripubblicare")
+    elif not args.pubblica:
+        print("  diversa da quella online: da ripubblicare con "
+              "'python3 genera-vetrina.py --pubblica'")
     else:
-        print(f"  diversa da quella online: da ripubblicare trascinando la "
-              f"cartella 'Vetrina' nella scheda Deploys di {SITO}")
+        print(f"  diversa da quella online: pubblico su {SITO}")
+        stato = pubblica(out.parent)
+        if stato != "ready":
+            print(f"  Netlify risponde '{stato}': controllare nella scheda "
+                  "Deploys")
+        elif online() == doc:
+            print("  pubblicata: la pagina online ora e' uguale a questa")
+        else:
+            print("  pubblicata, ma online risulta ancora diversa: "
+                  "riprovare fra un minuto")
 
 
 if __name__ == "__main__":
