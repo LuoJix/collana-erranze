@@ -1000,6 +1000,7 @@
       ],
       "zlib_category": "Medicine - Public health",
       "price_ebook_eur": null,
+      "pages": 65,
       "price_paperback_eur": 8.9,
       "zenodo": {
         "deposit_id": 23708288,
