@@ -972,6 +972,44 @@
         ]
       },
       "asin": "B0HP8FCVT9"
+    },
+    {
+      "n": 27,
+      "title": "Selfare — La salute come compito a casa",
+      "folder": "Completati/Selfare — La salute come compito a casa",
+      "file": "Selfare",
+      "color": "#7A4E5C",
+      "instagram_line": "Chi lavora, gratis, per la propria salute",
+      "blurb": "Un magazziniere di quarantotto anni, che lavora a turni, esce dall'ambulatorio con un foglio di consigli in tasca: verdura e legumi, mezz'ora di cammino al giorno, niente sigarette, dormire bene. Prima di uscire detta al medico un'altra lista, la sua. Un orario che non cambi ogni settimana, una corriera che passi quando smonta, una paga che basti, una casa vicino al lavoro, un po' di tempo. La prima lista si consegna alla persona; la seconda non ha uno sportello a cui consegnarla. Questo libro racconta che cosa succede fra le due, e dà un nome alla condizione di chi lavora gratis per la propria salute, il salutariato. Misurarsi la pressione a casa, scaricare i referti, incastrare le visite con i turni, contare i passi, cucinare per chi ha la glicemia al limite sono un lavoro che nessuno paga. Illich lo chiamava lavoro-ombra, e nel cittadino che si cura da sé vedeva il collega del medico e insieme il suo cliente. Corbin e Strauss, Nona Glazer e Carl May mostrano come il lavoro di tenere insieme le cure sia passato dagli ospedali alle case, cioè alle famiglie, per lo più alle donne, e poi alle badanti. Dall'interno dell'amministrazione sanitaria trentina, dove ha contribuito a scrivere alcuni dei documenti di cui parla, l'autore racconta come un piano che nelle premesse chiama in causa tutti i settori arrivi, nelle azioni, agli stili di vita. La tesi si dice in una frase. Quando la politica non riesce ad affrontare i determinanti economici, sociali e ambientali della salute, tende a scaricare la propria incapacità sulle singole persone, e le persone la pagano con un lavoro che nessuno valorizza.",
+      "keywords": [
+        "salute pubblica",
+        "stili di vita",
+        "lavoro ombra",
+        "Illich",
+        "determinanti sociali della salute",
+        "disuguaglianze di salute",
+        "caregiver",
+        "promozione della salute",
+        "self-tracking",
+        "Trentino"
+      ],
+      "kdp_categories": [
+        "MEDICAL / Public Health",
+        "MEDICAL / Health Policy",
+        "SOCIAL SCIENCE / Sociology / General"
+      ],
+      "zlib_category": "Medicine - Public health",
+      "price_ebook_eur": null,
+      "price_paperback_eur": 8.9,
+      "zenodo": {
+        "deposit_id": 23708288,
+        "url": "https://zenodo.org/record/23708288",
+        "pubblicato": true,
+        "doi_riservato": "10.5281/zenodo.23708288",
+        "doi": "10.5281/zenodo.23708288",
+        "concept_doi": "10.5281/zenodo.23708287"
+      },
+      "asin": "B0HPM2FQGN"
     }
   ]
 }

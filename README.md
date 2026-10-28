@@ -35,6 +35,7 @@ rimpaginarlo o tradurlo.
 - **24. Tenere Fuori, Lasciar Passare — Non c'è oltre senza confine** — [ebook](https://zenodo.org/record/22983081)
 - **25. Merita un Cenno — Una misura che nessuno aveva chiesto** — [ebook](https://zenodo.org/record/23121650)
 - **26. Fare la Propria Parte — La firma e il ruolo nel lavoro comune** — [ebook](https://zenodo.org/record/23626438)
+- **27. Selfare — La salute come compito a casa** — [ebook](https://zenodo.org/record/23708288)
 
 ## Errancies (edizione inglese)
 
@@ -70,4 +71,4 @@ condividendo allo stesso modo. Vedi `LICENSE`.
 
 Gli script sono sotto licenza MIT. Vedi `LICENSE-CODE`.
 
-*Aggiornato al 25 ottobre 2026.*
+*Aggiornato al 28 ottobre 2026.*
